@@ -1,7 +1,7 @@
 import AlumniSection from "./AlumniSection/AlumniSection"
 import Events from "./Events/Events.jsx"
 import Hero from "./Hero/Hero"
-import Package from "./package/package"
+import Package from "./package/Package"
 
 
 const Home = () => {
