@@ -1,0 +1,20 @@
+.EventsHolder{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:  70vh;
+    padding: 20px;
+}
+.EventsHeader{
+    color: #023047;
+    padding-block: 20px;
+}
+.EventsContent{
+    width: 99%;
+}
+.Event img{
+    object-fit: cover;
+}
+.Event{
+    width: 100%;
+}

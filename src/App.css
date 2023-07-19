@@ -1,0 +1,15 @@
+.App{
+  height: 200vh;
+}
+.mobileMenu{
+  width: 100%;
+  position: sticky;
+  height: 94px;
+  top: 0;
+  background: white;
+  background: linear-gradient(to right bottom,
+  rgba(255, 255, 255,0.7),
+  rgba(255, 255, 255, 0.3)
+      );
+  backdrop-filter: blur(1rem);
+}
