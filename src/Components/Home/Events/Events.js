@@ -20,12 +20,4 @@ export const EventsPhotos =[
         id: 4,
         image: img4,
     },
-    {
-        id: 5,
-        image: img4,
-    },
-    {
-        id: 6,
-        image: img4,
-    }
 ]
