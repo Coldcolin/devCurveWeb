@@ -18,3 +18,9 @@
 .Event{
     width: 100%;
 }
+
+@media screen and (width < 600px) {
+    .EventsContent{
+        width: 90%;
+    }
+}

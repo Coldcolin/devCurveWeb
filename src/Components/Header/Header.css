@@ -39,6 +39,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    margin-left: 80px;
 }
 
 .Logs{
@@ -221,7 +222,7 @@
     }
 }
 @media screen and (width <= 650px) {
-    /* .HeaderContainer{
-        display: none;
-    } */
+    .HeaderLogo{
+        margin-left: 20px;
+    }
 }
