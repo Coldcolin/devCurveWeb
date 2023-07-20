@@ -35,11 +35,11 @@ function Header() {
                   
                 <div className='Buttons'>
                     {/* <a href='https://join.slack.com/t/thecurveafrica/shared_invite/zt-1etfl6ukx-IXKNy9N26lMQj7YT3OZGLw' target='blank' style={{textDecoration:'none', color:'inherit'}}><button className='HeaderBtn1'>Join our community</button></a> */}
-                    <div className="HeaderNavs">
-                      <NavLink to="/" className="HeaderNavItems">Home</NavLink>
-                      <NavLink to="about" className="HeaderNavItems">About</NavLink>
-                      <NavLink to="contact" className="HeaderNavItems">Contact</NavLink>
-                      <NavLink to="gallery" className="HeaderNavItems">Gallery</NavLink>
+                    <div className='HeaderNavs'>
+                      <NavLink to="/" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>Home</NavLink>
+                      <NavLink to="about" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>About</NavLink>
+                      <NavLink to="contact" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>Contact</NavLink>
+                      <NavLink to="gallery" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>Gallery</NavLink>
                     </div>
                     <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank'><button className='HeaderBtn2'>Register for Free!</button></a>
                 </div>

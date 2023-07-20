@@ -1,24 +1,38 @@
-import Fav from "../../../assets/RectangleFav.png"
-import Luc from "../../../assets/RectangleLuc.png"
-import Nku from "../../../assets/RectangleNku.png"
+import Sul from "../../../assets/Sulton.jpeg"
+import Nina from "../../../assets/Nina.jpg"
+import Nku from "../../../assets/Nkume.jpg"
+import Obinna from "../../../assets/Obinna.jpg"
+import Joshua from "../../../assets/Joshua.jpg"
 
 export const testimony=[
 {
     id: 1,
-    name: "Lucia Ujunwa",
-    image: Luc,
-    text: "I went from being a hair dresser to a very good software engineer in 5 months"
+    name: "Sulion Olalere Adebayo",
+    image: Sul,
+    text: "Aspiring tech bro transformed by 'The Curve.' Cutting-edge curriculum and expert guidance propelled my career to new heights, opening doors to exciting opportunities. Now equipped to make a lasting impact in the tech industry."
 },
 {
     id: 2,
-    name: "Favour Igbani",
-    image: Fav,
-    text: "As an SSCE holder, while i was awaiting jamb i was referred to this opportunity, initially for me it was just an opportunity to leave the house, but i gave it my best shot, and today i am interning with shuttercore as a software engineer"
+    name: "Obinna Nwachukwu",
+    image: Obinna,
+    text: "Extremely grateful for the once-in-a-lifetime opportunity! Developed soft skills, learned from seasoned instructors, and collaborated with tech enthusiasts. Now equipped with a basic understanding of being a tech professional and identifying solutions to tech-related problems."
 },
 {
     id: 3,
     name: "Opara Nwachuckwu",
     image: Nku,
-    text: "I am a FUTO student in my year 2, i differed  my semester to complete this five month program and i never regretted it a bit. currently i am interning with shuttercore as a frontend engineer"
+    text: "Curve's exceptional support and education transformed my career trajectory without financial burden. Their dedication to fostering learning and supporting aspiring professionals is admirable. I'm deeply thankful for the invaluable lessons and countless opportunities that positioned me for remarkable success."
+},
+{
+    id: 4,
+    name: "Justina Igbani",
+    image: Nina,
+    text: "Thanks to The Curve Africa's scholarship, I gained invaluable training for personal and professional growth in tech education. Their support opened doors to endless possibilities and set me on a promising path."
+},
+{
+    id: 5,
+    name: "Aninku Joshua",
+    image: Joshua,
+    text: "I came into tech journey less than a year ago am with the fear of whether i am going to cope or scale through.Fortunately for me, i came across  @thecurveafrica,and the rest the say is history.Aninku Joshua (Back-end Engineer)"
 }
 ]

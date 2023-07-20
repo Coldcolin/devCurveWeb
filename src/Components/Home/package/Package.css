@@ -31,7 +31,7 @@
 }
 
 .PackTopText{
-    color: white;
+    color: #023047;
     font-weight: 500;
     font-size: 25px;
 }
@@ -50,14 +50,17 @@
 }
 
 .PackBtn{
-    width: 200px;
-    height: 35px;
-    border: none;
-    border-radius: 8px;
-    color: white;
+    width: 300px;
+    height: 60px;
     background-color: #FFB703;
-    margin-top: 25px;
+    border: none;
+    color: #023047;
+    border-radius: 8px;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 25px;
+
 }
 
 .PackImgDown{

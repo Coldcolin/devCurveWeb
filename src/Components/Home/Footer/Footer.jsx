@@ -6,11 +6,6 @@ import Tw from '../../Images/tw.png'
 import Li from '../../Images/li.png'
 import In from '../../Images/in.png'
 import Logo from '../../Images/curve2.png'
-import Modal from '@mui/material/Modal';
-import CancelIcon from '@mui/icons-material/Cancel';
-import Box from '@mui/material/Box';
-
-import {Link} from 'react-router-dom'
 import Gmail from '../../Images/gmail.png'
 import Phone from '../../Images/phone.png'
 
