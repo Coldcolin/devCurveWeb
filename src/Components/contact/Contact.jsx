@@ -1,9 +1,12 @@
-
+import ContactTop from "./ContactTop"
+import "./Contact.css"
+import GetInTouch from "./GetInTouch"
 
 const Contact = () => {
   return (
-    <div style={{minHeight: "100vh"}}>
-        <h1>Contact</h1>
+    <div>
+        <ContactTop/>
+        <GetInTouch/>
     </div>
   )
 }

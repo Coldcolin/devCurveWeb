@@ -1,9 +1,10 @@
+import GalleryTop from "./GalleryTop"
 
 
 const Gallery = () => {
   return (
-    <div style={{minHeight: "100vh"}}>
-        <h1>Gallery</h1>
+    <div>
+        <GalleryTop/>
     </div>
   )
 }

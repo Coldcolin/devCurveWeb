@@ -17,7 +17,7 @@ const Events = () => {
             {
               breakpoint: 1440,
               settings: {
-                slidesToShow: 2.2,
+                slidesToShow: 3.2,
                 slidesToScroll: 2.2,
                 infinite: true,
                 dots: true
@@ -26,7 +26,7 @@ const Events = () => {
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 2.2,
+                slidesToShow: 3.2,
                 slidesToScroll: 2.2,
                 infinite: true,
                 dots: true

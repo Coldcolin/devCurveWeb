@@ -1,9 +1,14 @@
-
+import AboutTop from "./AboutTop"
+import "./AboutTop.css"
+import AboutMiddle from "./AboutMiddle"
+import AboutStaff from "./AboutStaff"
 
 const About = () => {
   return (
-    <div style={{minHeight: "100vh"}}>
-        <h1>About</h1>
+    <div>
+        <AboutTop/>
+        <AboutMiddle/>
+        <AboutStaff/>
     </div>
   )
 }

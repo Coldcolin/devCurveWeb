@@ -10,13 +10,10 @@ export default function Layout() {
     window.scrollTo(0, 0)
   }, [location])
   return (
-    <>
-      {/* all the other elements */}
-      <>
+    <div style={{display: "flex", flexDirection:"column"}}>
         <Header/>
         <Outlet />
         <Footer/>
-      </>
-    </>
+    </div>
   );
 }
