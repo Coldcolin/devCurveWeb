@@ -132,4 +132,9 @@
         width: 80%;
        }
     }
+    .GetInTouchInfo{
+        & form {
+            width: 90%
+        }
+    }
   }

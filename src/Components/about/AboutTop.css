@@ -103,6 +103,48 @@
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.5px;
 }
+.AboutStaff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 50vh;
+    height: auto;
+    padding-inline: 40px;
+    padding-bottom: 40px;
+
+    & h2{
+        color: #34393C;
+    }
+    & div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        padding-top: 40px;
+    }
+}
+.StaffSection{
+    width: 300px;
+    min-height: 200px;
+    & article{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+
+        & img{
+            width: 169px;
+            height: 169px;
+            border-radius: 169px;
+            object-fit: cover;
+        }
+    }
+}
 
 @media (max-width: 768px) { /*breakpoint*/
     .AboutMission {
@@ -110,5 +152,8 @@
     }
     .AboutWhy{
         grid-template-columns: none;
+    }
+    .AboutTop1 p{
+        font-size: 20px;
     }
   }
