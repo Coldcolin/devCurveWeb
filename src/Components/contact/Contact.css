@@ -134,7 +134,11 @@
     }
     .GetInTouchInfo{
         & form {
-            width: 90%
+            width: 90%;
+
+            & button{
+                width: 200px;
+            }
         }
     }
   }
