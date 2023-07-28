@@ -40,7 +40,7 @@ function Footer() {
                 </div>
             </div>
             <div className='FooterLine'></div>
-            <div className='FooterBottom'> ©{date} The Curve | All rights reserved</div>
+            <div className='FooterBottom'> ©{date} The Curve Africa | All rights reserved</div>
         </section>
 
     </>

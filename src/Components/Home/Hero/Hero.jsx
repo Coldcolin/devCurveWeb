@@ -1,6 +1,7 @@
 import './Hero.css'
 import Img1 from '../../Images/img1.png'
 import Img2 from '../../Images/Img2.png'
+import Img3 from '../../../assets/HeroHome.png'
 
 
 function Hero() {
@@ -17,18 +18,16 @@ function Hero() {
                 <div className='BottomWrap'>
                     <div className='HeroLeft'>
                         <div className='HeroText'>
-                            Become an Expert in Software Engineering for 
-                            <div className='free'>FREE</div>
+                            Unlock Your Software Engineering Expertise for 
+                            <span className='free'> Free</span>
                         </div>
                         <p className='HeroPara'>
-                            Join The Curve Academy today, learn and acquire hands on experience,
-                            build amazing portfolio and you might have the opportunity for an internship on completion,
-                            all for free!
+                        Elevate Your Skills, Join The Curve Africa Academy for a Comprehensive Learning Experience, Hands-on Training, a Stellar Portfolio, and Potential Internship Opportunities – All at No Cost!
                         </p>
                         <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank'><button className='HeroBtn'>Apply Now!</button></a>
                     </div>
 
-                    <img  className='HeroRight' src={Img1} alt='Avatar'/>
+                    <img  className='HeroRight' src={Img3} alt='Avatar'/>
                     <img  className='HeroRight2' src={Img2} alt='Avatar'/>
                     
                 </div>

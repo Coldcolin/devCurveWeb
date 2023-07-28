@@ -25,7 +25,7 @@
 }
 
 .PackTop{
-    width: 89%;
+    width: 93.5%;
     display: flex;
     justify-content: space-between;
 }
@@ -37,10 +37,11 @@
 }
 
 .PackCardWrap{
-    width: 90%;
+    width: 94.3%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
+    /* background-color: #023047; */
 }
 
 .PackBtnHold{

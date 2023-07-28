@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .Hero1{
@@ -11,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFB703;
+    background-color: #FFB703;;
     font-weight: 500;
 }
 
@@ -20,7 +21,9 @@
     width: 100%;
     background-color: #023047;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    padding-left: 100px;
+    min-height: 85vh;
 }
 
 .BottomWrap{
@@ -39,7 +42,7 @@
 }
 
 .HeroRight{
-    width: 45%;
+    width: 50%;
     height: 100%;
 }
 
@@ -56,6 +59,7 @@
 @media screen and (max-width: 650px){
     .Bottom{
         justify-content: center;
+        padding-left: 20px;;
     }
     .HeroRight{
        display: none;
@@ -114,7 +118,7 @@
         font-size: 13px;
     }
     .HeroText{
-        font-size: 30px;
+        font-size: 20px;
         width: 250px;
         min-height: 250px;
         height: auto;
@@ -149,6 +153,14 @@
     .HeroLinkr{
         width: 270px;
     }
+
+}
+@media screen and (width <= 300px){
+    .HeroText{
+        font-size: 20px;
+        color: yellow;
+    }
+
 }
 
 
