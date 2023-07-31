@@ -51,8 +51,12 @@ function Header() {
         {
           seeMobile? <section className="mobileMenu">
           <Menu seeMobile={seeMobile} setSeeMobile={setSeeMobile}/>
+          <div className="transparent" onClick={()=> setSeeMobile(!seeMobile)}>
+            
+          </div>
         </section>: null
         }
+        
     </>
   )
 }

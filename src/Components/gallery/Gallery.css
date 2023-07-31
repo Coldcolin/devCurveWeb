@@ -67,3 +67,10 @@
         }
     }
   }
+@media (width <= 375px) { /*breakpoint*/
+    .GalleryItem{
+        & p {
+            font-size: 10px;
+        }
+    }
+  }

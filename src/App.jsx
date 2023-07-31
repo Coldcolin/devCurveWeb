@@ -1,6 +1,6 @@
 import Home from "./Components/Home/Home"
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import './App.css'
@@ -10,7 +10,7 @@ import About from "./Components/about/About";
 import Contact from "./Components/contact/Contact";
 import Gallery from "./Components/gallery/Galery";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Layout />,
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <Home onClick={()=> console.log("clicked")}/>,
       },
       {
         path: "/about",

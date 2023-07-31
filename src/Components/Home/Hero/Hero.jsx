@@ -1,7 +1,7 @@
 import './Hero.css'
 import Img1 from '../../Images/img1.png'
 import Img2 from '../../Images/Img2.png'
-import Img3 from '../../../assets/HeroHome.png'
+import Img3 from '../../../assets/HomeHero.png'
 
 
 function Hero() {

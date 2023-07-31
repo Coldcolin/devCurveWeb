@@ -118,7 +118,7 @@
         font-size: 13px;
     }
     .HeroText{
-        font-size: 20px;
+        font-size: 25px;
         width: 250px;
         min-height: 250px;
         height: auto;
@@ -152,6 +152,9 @@
     }
     .HeroLinkr{
         width: 270px;
+    }
+    .Hero1{
+        font-size: 12px;
     }
 
 }
