@@ -157,3 +157,9 @@
         }
     }
 }
+
+@media screen and (width <= 375px){
+    .GmailHold{
+        font-size: 14px;
+    }
+}

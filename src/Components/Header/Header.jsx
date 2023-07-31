@@ -4,6 +4,7 @@ import {NavLink} from 'react-router-dom'
 import Logo1 from '../Images/curve1.png'
 import Logo2 from '../Images/curve2.png'
 import {BiMenu} from 'react-icons/bi'
+import {ImCancelCircle} from 'react-icons/im'
 import Menu from './Menu'
 
 
@@ -44,8 +45,8 @@ function Header() {
                     <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank'><button className='HeaderBtn2'>Register for Free!</button></a>
                 </div>
             </div>
-            <div className='HeaderBurger'>
-                <BiMenu color="white" fontSize={30} onClick={()=> setSeeMobile(!seeMobile)}/>
+            <div className={seeMobile? "HeaderBurger1":'HeaderBurger'}>
+                { seeMobile? <ImCancelCircle color="#023047" fontSize={30} onClick={()=> setSeeMobile(!seeMobile)}/>: <BiMenu color="white" fontSize={30} onClick={()=> setSeeMobile(!seeMobile)}/> }
             </div>
         </section>
         {

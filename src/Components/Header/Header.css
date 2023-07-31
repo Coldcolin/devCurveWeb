@@ -187,6 +187,12 @@
     margin-right: 20px;
     border-radius: 3px;
 }
+.HeaderBurger1{
+    /* background-color: #023047;
+    padding: 5px; */
+    margin-right: 20px;
+    /* border-radius: 3px; */
+}
 
 .mobileMenu{
     position: fixed;

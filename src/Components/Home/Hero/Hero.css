@@ -118,7 +118,7 @@
         font-size: 13px;
     }
     .HeroText{
-        font-size: 25px;
+        font-size: 30px;
         width: 250px;
         min-height: 250px;
         height: auto;
@@ -147,9 +147,10 @@
     .HeroPara{
         width: 280px;
     }
-    .HeroBtn{
+    /* .HeroBtn{
         width: 270px;
-    }
+    } */
+    
     .HeroLinkr{
         width: 270px;
     }
@@ -158,10 +159,9 @@
     }
 
 }
-@media screen and (width <= 300px){
-    .HeroText{
-        font-size: 20px;
-        color: yellow;
+@media screen and (width <= 320px){
+    .HeroBtn{
+        width: 100%;
     }
 
 }
