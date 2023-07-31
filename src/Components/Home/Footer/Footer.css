@@ -152,7 +152,7 @@
         justify-content: flex-start;
         width: 100%;
         padding-inline: 0px;
-        & image{
+        & img{
             height: 100px;
         }
     }
@@ -162,4 +162,30 @@
     .GmailHold{
         font-size: 14px;
     }
+    .FooterLogo{
+        margin-bottom: 10px;
+        & img{
+            height: 80px;
+        }
+    }
+    .FooterContent{
+        padding-inline: 10px;
+    }
+    .FooterBtnContain{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        
+        & a{
+            width: 100%;
+            margin-top: 25px;
+            & button{
+                width: 55%;
+                border-radius: 5px;
+            }
+        }
+        
+        
+    }
+    
 }

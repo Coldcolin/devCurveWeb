@@ -3,6 +3,7 @@ import Nina from "../../../assets/Nina.jpg"
 import Nku from "../../../assets/Nkume.jpg"
 import Obinna from "../../../assets/Obinna.jpg"
 import Joshua from "../../../assets/Joshua.jpg"
+import Isaac from "../../../assets/Isaac.jpg"
 
 export const testimony=[
 {
@@ -34,5 +35,12 @@ export const testimony=[
     name: "Aninku Joshua",
     image: Joshua,
     text: "I came into tech journey less than a year ago am with the fear of whether i am going to cope or scale through.Fortunately for me, i came across  @thecurveafrica,and the rest the say is history.Aninku Joshua (Back-end Engineer)"
-}
+},
+{
+    id: 5,
+    name: "Ugwanya Isaac",
+    image: Isaac,
+    text: "I'm grateful to God for using The Curve to provide a platform where lives can be meaningfully impacted by imbibing its core value_leadership, team work, competence, people etc into her students."
+},
+
 ]
