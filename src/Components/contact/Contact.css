@@ -43,6 +43,18 @@
     gap: 60px;
     margin-top: 30px;
     /* background-color: yellow; */
+    & .buttonDisabled{
+        width: 300px;
+        height: 60px;
+        background-color: #1c668385;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 25px;
+    }
 
     & form {
         background-color: white;
@@ -81,10 +93,65 @@
             font-weight: 700;
             font-size: 18px;
             margin-top: 25px;
+
+            
         }
 
     }
 }
+.buttonDisabled{
+    width: 300px;
+    height: 60px;
+    background-color: #1c668385;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+form {
+    background-color: white;
+    color:#023047;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+textarea{
+    border-radius: 8px;
+    background: rgba(2, 48, 71, 0.20);
+    border: none;
+    outline: none;
+    height: 180px;
+    width: 100%;
+}
+input{
+    border-radius: 5px;
+    background: rgba(2, 48, 71, 0.20);
+    border: none;
+    outline: none;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    width: 300px;
+    height: 60px;
+    background-color: #023047;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+
 .GetInTouchLinks{
     display: flex;
     flex-direction: column;
@@ -123,35 +190,58 @@
         }
     }
 }
+.GetInTouchSocial div{
+        display: flex;
+        gap: 20px;
+}
+.GetInTouchSocial div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 60px;
+}
 
 @media (max-width: 768px) { /*breakpoint*/
     .GetInTouchInfo {
       grid-template-columns: none;
     }
-    .ContactTop1 {
-       & h1{ 
+    .ContactTop1 h1 {
         font-size: 30px;
-       }
-       & p{
+    }
+    .ContactTop1 p {
         font-size: 20px;
         width: 80%;
-       }
+       
     }
-    .GetInTouchInfo{
-        & form {
-            width: 90%;
-
-            & button{
-                width: 200px;
-            }
-        }
+   
+    form {
+        width: 90%;
     }
-  }
+    button{
+        width: 200px;
+    }
+}
 
 @media screen and (width <= 425px) { /*breakpoint*/
     .GetInTouch {
         padding-inline: 30px;
         /* background-color: yellow; */
+    }
+    .GetInTouchSocial div{
+        display: flex;
+        gap: 10px;
+    }
+    .GetInTouchSocial div div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 60px;
     }
     .GetInTouchSocial{
     
@@ -178,14 +268,24 @@
     .GetInTouchLink{
         width: 100%;
         display: flex;
-        
         align-items: center;
         gap: 10px;
         font-weight: 400;
         /* background-color: yellow; */
         line-height: 30px;
     }
-    .GetInTouchInfo{
+    form {
+        width: 100%;
+        padding: 30px;
+        gap: 10px;
+    }
+    label{
+        font-size: 13px;
+    }
+    input{
+        height: 35px;
+     }
+     .GetInTouchInfo{
         & form {
             width: 100%;
             padding: 30px;
@@ -198,7 +298,13 @@
             & input{
                height: 35px;
             }
+            & button{
+                width: 200px;
+            }
         }
+    }
+    button{
+        width: 200px;
     }
   }
 
@@ -211,3 +317,16 @@
         gap: 20px;
     }
   }
+
+  .buttonDisabled{
+    width: 300px;
+    height: 60px;
+    background-color: #86b1c485;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 25px;
+}

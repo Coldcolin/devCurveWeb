@@ -6,21 +6,40 @@ import Facebook from "../Icons/Facebook"
 import LinkedIn from "../Icons/LinkedIn"
 import Instagram from "../Icons/Instagram"
 import Twitter from "../Icons/Twitter"
+import { useRef } from "react"
+import { useState } from "react"
+import emailjs from '@emailjs/browser';
 
 const GetInTouch = () => {
+    const formRef = useRef();
+    const [done, setDone] = useState(false)
+    
+    const handleSubmit = (e) =>{
+        e.preventDefault()
+        setDone(true)
+        emailjs.sendForm('service_7qp8uil', 'template_hre6l8h', formRef.current, 'e_9mk8PU9uPmeE13U')
+      .then((result) => {
+          console.log(result.text);
+          alert("mail sent successfully")
+          setDone(false)
+      }, (error) => {
+          console.log(error.text);
+          setDone(false)
+      });
+    }
   return (
     <main className="GetInTouch">
         <h2>Get In touch</h2>
         <section className="GetInTouchInfo">
-            <form>
+            <form ref={formRef} onSubmit={handleSubmit}>
                 <h4>Reach out to me Via message</h4>
                 <label>Name</label>
-                <input/>
+                <input name="from_name" />
                 <label>Contact email</label>
-                <input/>
+                <input name="user_email"/>
                 <label>Message</label>
-                <textarea/>
-                <button>Send Now</button>
+                <textarea name="message"/>
+                <button disabled={done} className={done? "buttonDisabled": ""}>Send Now</button>
             </form>
             <article className="GetInTouchLinks">
                 <div className="GetInTouchLink"><Phone/> +2348186793482, +2348137253138</div>

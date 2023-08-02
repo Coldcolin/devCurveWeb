@@ -18,7 +18,7 @@ function Hero() {
                 <div className='BottomWrap'>
                     <div className='HeroLeft'>
                         <div className='HeroText'>
-                            Unlock Your Software Engineering Expertise for 
+                        Unlock Your Software Engineering Skill for 
                             <span className='free'> Free</span>
                         </div>
                         <p className='HeroPara'>
