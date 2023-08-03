@@ -152,4 +152,21 @@
     .AlumniCardDesc{
         font-size: 10px;
     }
+    .AlumniTitleHolder{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .AlumniText{
+        width: 100%;
+        color: #FFF;
+        text-align: left;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 156.25% */
+        letter-spacing: 0.05px;
+    
+    }
 }

@@ -5,6 +5,7 @@ import Logo1 from '../Images/curve1.png'
 import Logo2 from '../Images/curve2.png'
 import {BiMenu} from 'react-icons/bi'
 import {ImCancelCircle} from 'react-icons/im'
+import Cancel from "../Icons/Cancel"
 import Menu from './Menu'
 
 
@@ -21,6 +22,9 @@ function Header() {
     } else {
       setColor(false)
     }
+  }
+  const onClicked=()=>{
+    setSeeMobile(!seeMobile)
   }
 
   window.addEventListener('scroll', changeColor)
@@ -45,8 +49,8 @@ function Header() {
                     <a href="https://docs.google.com/forms/d/1cUospbR3bfRMjiz6XYI3QNwoxDVgYG-7kn-gyVUlkh8/" target='blank'><button className='HeaderBtn2'>Register for Free!</button></a>
                 </div>
             </div>
-            <div className={seeMobile? "HeaderBurger1":'HeaderBurger'}>
-                { seeMobile? <ImCancelCircle color="#023047" fontSize={30} onClick={()=> setSeeMobile(!seeMobile)}/>: <BiMenu color="white" fontSize={30} onClick={()=> setSeeMobile(!seeMobile)}/> }
+            <div className={'HeaderBurger'}>
+                { seeMobile? <Cancel onClicked={onClicked}/>: <BiMenu color="white" fontSize={30} onClick={()=> setSeeMobile(!seeMobile)}/> }
             </div>
         </section>
         {

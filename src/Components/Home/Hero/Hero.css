@@ -157,10 +157,17 @@
     .Hero1{
         font-size: 12px;
     }
+    
 
 }
 @media screen and (width <= 320px){
     .HeroBtn{
+        width: 100%;
+    }
+
+}
+@media screen and (width <= 375px){
+    .Bottom button{
         width: 100%;
     }
 

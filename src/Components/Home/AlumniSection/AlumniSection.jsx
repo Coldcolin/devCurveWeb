@@ -61,7 +61,7 @@ const AlumniSection = () => {
     <>
         <section className='AlumniContainer'>
             <main className="AlumniTitleHolder">
-                <h3 className="AlumniHeading">Meet Our Accomplished Alumni</h3>
+                <h3 className="AlumniHeading">Meet Our Alumni</h3>
                 <p className="AlumniText">Inspiring Success Stories of Those Who Have Thrived in Our Tech Academy<br/><br/>
                 Discover the remarkable journeys of our talented alumni who have graduated from our tech academy. From transforming their careers to making significant contributions in the tech industry, our alumni embody the spirit of excellence and innovation. Get inspired by their stories of perseverance, growth, and achievement, and see how our academy has empowered them to reach new heights in their professional lives. Join us in celebrating the success of our alumni, and envision the endless possibilities that await you on your own path to greatness.</p>
             </main>

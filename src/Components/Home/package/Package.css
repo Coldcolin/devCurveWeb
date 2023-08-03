@@ -119,3 +119,13 @@
         width: 100%;
     }
 }
+@media screen and (width<= 425px){
+    .PackTopText{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .PackBtn{
+        width: 60%;
+    }
+}
