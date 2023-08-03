@@ -36,7 +36,7 @@ function Footer() {
                     @thecurve.academy
                 </div>
                 <div className='FooterBtnContain'>
-                <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank'><button className='FooterBtn'>Apply Now!</button></a>
+                <a href="https://docs.google.com/forms/d/1cUospbR3bfRMjiz6XYI3QNwoxDVgYG-7kn-gyVUlkh8/" target='blank'><button className='FooterBtn'>Apply Now!</button></a>
                 </div>
             </div>
             <div className='FooterLine'></div>

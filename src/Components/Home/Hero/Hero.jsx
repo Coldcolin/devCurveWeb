@@ -12,7 +12,7 @@ function Hero() {
     <>
         <section className='HeroContainer'>
             <div className='Hero1'>
-                Registration for The Curve cohort 2.0 is now open!
+            <marquee>Registration for The Curve cohort 3.0 is now open!</marquee>
             </div>
             <div className='Bottom'>
                 <div className='BottomWrap'>
@@ -24,7 +24,7 @@ function Hero() {
                         <p className='HeroPara'>
                         Elevate Your Skills, Join The Curve Africa Academy for a Comprehensive Learning Experience, Hands-on Training, a Stellar Portfolio, and Potential Internship Opportunities – All at No Cost!
                         </p>
-                        <a href="https://forms.gle/JLx1YoXBfC53V7Rg8" target='blank'><button className='HeroBtn'>Apply Now!</button></a>
+                        <a href="https://docs.google.com/forms/d/1cUospbR3bfRMjiz6XYI3QNwoxDVgYG-7kn-gyVUlkh8/" target='blank'><button className='HeroBtn'>Apply Now!</button></a>
                     </div>
 
                     <img  className='HeroRight' src={Img3} alt='Avatar'/>
