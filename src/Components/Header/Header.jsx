@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 import Logo1 from '../Images/curve1.png'
 import Logo2 from '../Images/curve2.png'
 import {BiMenu} from 'react-icons/bi'
-import {ImCancelCircle} from 'react-icons/im'
+// import {ImCancelCircle} from 'react-icons/im'
 import Cancel from "../Icons/Cancel"
 import Menu from './Menu'
 
@@ -35,18 +35,17 @@ function Header() {
         <section className={color ? 'HeaderContainer HeaderContainer-bg' : seeMobile? 'HeaderContainer HeaderContainer-white': 'HeaderContainer'}>
             <div className='HeaderWrapper'>
                   <div className='HeaderLogo'>
-                    {color ? (<img src={Logo1} alt='Logo' className='Logs'/>): seeMobile? (<img src={Logo1} alt='Logo' className='Logs'/>):(<img src={Logo2} alt='Logo' className='Logs'/>) }
+                    {color ? (<img src={Logo1} alt='Logo' className='Logs'/>): seeMobile? (<img src={Logo1} alt='Logo' className='Logs'/>):(<img src={Logo1} alt='Logo' className='Logs'/>) }
                   </div>
                   
                 <div className='Buttons'>
-                    {/* <a href='https://join.slack.com/t/thecurveafrica/shared_invite/zt-1etfl6ukx-IXKNy9N26lMQj7YT3OZGLw' target='blank' style={{textDecoration:'none', color:'inherit'}}><button className='HeaderBtn1'>Join our community</button></a> */}
                     <div className='HeaderNavs'>
                       <NavLink to="/" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>Home</NavLink>
                       <NavLink to="about" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>About</NavLink>
                       <NavLink to="contact" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>Contact</NavLink>
                       <NavLink to="gallery" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>Gallery</NavLink>
                     </div>
-                    <a href="https://docs.google.com/forms/d/1cUospbR3bfRMjiz6XYI3QNwoxDVgYG-7kn-gyVUlkh8/" target='blank'><button className='HeaderBtn2'>Register for Free!</button></a>
+                    <a href="https://docs.google.com/forms/d/https://docs.google.com/forms/d/1Bzjt1KihWusX7aaTemlvWjJMe2ptzKM5c7q5aw_pa4k/closedform-7kn-gyVUlkh8/" target='blank'><button className='HeaderBtn2'>Register for Free!</button></a>
                 </div>
             </div>
             <div className={'HeaderBurger'}>

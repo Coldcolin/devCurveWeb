@@ -1,5 +1,5 @@
 import './Package.css'
-import Img3 from '../../Images/img3.png'
+
 import Img4 from '../../Images/img4.png'
 import Img5 from '../../Images/img5.png'
 import Card from './Card/Card'
@@ -8,13 +8,8 @@ import icon1 from '../../Images/first.png'
 import icon2 from '../../Images/second.png'
 import icon3 from '../../Images/third.png'
 import icon4 from '../../Images/fourth.png'
-// import Fa from '../../Images/fa.png'
-// import Tw from '../../Images/tw.png'
-// import Li from '../../Images/li.png'
-// import In from '../../Images/in.png'
-// import Modal from '@mui/material/Modal';
-// import CancelIcon from '@mui/icons-material/Cancel';
-// import Box from '@mui/material/Box';
+import SlideInWhenVisible from "./SlideInWhenVisible"
+import SlideInWhenInViewRight from './SlideInWhenInViewRight'
 
 const Package = () => {
     // const [open, setOpen] = React.useState(false);
@@ -22,10 +17,6 @@ const Package = () => {
     // const handleClose = () => setOpen(false);
   return (
     <section className='PackageContainer'>
-
-        <div className='PackImg'>
-            <img className='PackImg1' src={Img3} alt='Avatar' />
-        </div>
 
         <div className='PackTop'>
             <div className='PackTopText'>
@@ -35,39 +26,49 @@ const Package = () => {
         </div>
 
         <div className='PackCardWrap'>
+            <SlideInWhenVisible>
             <Card 
                 icon={icon1}
                 bg='#ffb703'
                 title='Learn from our Experts'
                 bd='2px solid #ffb703'
-                para='We ensure to provide you with the best instructor to make your learning fun and impactful, we have hand selected out instructors that will deliver the best learning experience'
+                para='Learn from the Best, Immerse Yourself in Fun and Impactful Learning with Our Expert Instructors. We Handpick Seasoned Professionals to Deliver an Exceptional Learning Experience.'
             />
+            </SlideInWhenVisible>
+            <SlideInWhenVisible>
             <Card
                 icon={icon2} 
                 bg='#8ecae6'
                 title='Hands on Experience'
                 bd='2px solid #8ecae6'
-                para='We believe in practical, and that is why we invest on it, you would learn better by doing it yourself, get ready!'
+                para='Experience the Power of Doing: Embrace a Hands-on Learning Approach. At Our Academy, We Value Practicality and Empower You to Learn by Doing. Get Ready to Dive In and Unlock Your Full Potential!'
             />
-            <Card
-                icon={icon3} 
-                bg='#fb8500'
-                title='Internship on Completion'
-                bd='2px solid #fb8500'
-                para='Depending on your performance after completion of the training, you might have the opportunity to intern with The Curve'
-            />
+            </SlideInWhenVisible>
+            <SlideInWhenInViewRight>
+                <Card
+                    icon={icon3} 
+                    bg='#fb8500'
+                    title='Open Door to Opportunities'
+                    bd='2px solid #fb8500'
+                    para='Open the Door to Opportunities: Secure a Paid Internship Placement Upon Successful Completion of Our Intensive Five-Month Training Program. Your Hard Work and Dedication Will Be Rewarded with a Valuable Real-World Experience and a Stepping Stone towards Your Future Success.'
+                />
+            </SlideInWhenInViewRight>
+            <SlideInWhenInViewRight>
             <Card 
                 icon={icon4}
                 bg='#219ebc'
-                title='Mentorship'
+                title='Guidance every step of thr way'
                 bd='2px solid #219ebc'
-                para='You will be assigned to a mentor who will guide you through your journey in Tech'
+                para='Benefit from Personalized Mentorship Throughout Your Journey. We Pair You with a Dedicated Mentor who will Provide Expert Guidance and Support, Ensuring You Have the Best Possible Learning Experience and Guidance as You Progress Towards Your Goals.'
             />
+            </SlideInWhenInViewRight>
+            
+            
         </div>
 
-        <div className='PackBtnHold'>
+        {/* <div className='PackBtnHold'>
         <a href="https://docs.google.com/forms/d/1cUospbR3bfRMjiz6XYI3QNwoxDVgYG-7kn-gyVUlkh8/" target='blank' className='MobileLink'><button className='PackBtn'>Apply Now!</button></a>
-        </div>
+        </div> */}
 
         <div className='PackImgDown'>
             <img className='PackImg3' src={Img5} alt='Avatar' />

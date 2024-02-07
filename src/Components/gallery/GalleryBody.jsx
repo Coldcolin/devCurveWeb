@@ -15,6 +15,7 @@ const GalleryBody = () => {
           ))
         }
       </section>
+      {/* <div to="/gallery" className="EventsSee">See more <FaRegArrowAltCircleRight  /></div> */}
     </div>
   )
 }
