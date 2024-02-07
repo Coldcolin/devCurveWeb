@@ -1,9 +1,13 @@
 .PackCardHold{
-    width: 300px;
+    width: 435px;
+    height: 400px;
     padding: 20px;
     margin: 10px;
     background-color: white;
     border-radius: 5px;
+    box-shadow: 1px 7px 19px 4px rgba(150,147,147,0.75);
+    -webkit-box-shadow: 1px 7px 19px 4px rgba(150,147,147,0.75);
+    -moz-box-shadow: 1px 7px 19px 4px rgba(150,147,147,0.75);
 }
 
 .CardLogo{
@@ -18,7 +22,8 @@
 }
 
 .PackCardTitle{
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     margin-top: 30px;
 }
 
@@ -30,8 +35,39 @@
 
 .PackPara{
     margin-top: 20px;
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 30px;
 }
 
+@media screen and (max-width: 428px){
+    .PackPara{
+        font-size: 16px;
+        line-height: 20px;
+        word-spacing: 1px;
+    }
+}
+@media screen and (max-width: 375px){
+    .PackPara{
+        /* font-size: 16px; */
+        line-height: 20px;
+        word-spacing: 1px;
+    }
+}
+@media screen and (max-width: 360px){
+    .PackPara{
+        font-size: 15px;
+        line-height: 18px;
+        word-spacing: 1px;
+    }
+}
+@media screen and (max-width: 320px){
+    .PackPara{
+        font-size: 13px;
+        line-height: 18px;
+        word-spacing: 1px;
+    }
+}
 @media screen and (max-width: 650px){
     .PackCardHold{
         width: 80%;
