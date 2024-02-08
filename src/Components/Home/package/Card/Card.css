@@ -45,6 +45,7 @@
         font-size: 16px;
         line-height: 20px;
         word-spacing: 1px;
+        
     }
 }
 @media screen and (max-width: 375px){
@@ -52,6 +53,7 @@
         /* font-size: 16px; */
         line-height: 20px;
         word-spacing: 1px;
+        
     }
 }
 @media screen and (max-width: 360px){
@@ -61,17 +63,18 @@
         word-spacing: 1px;
     }
 }
-@media screen and (max-width: 320px){
-    .PackPara{
-        font-size: 13px;
-        line-height: 18px;
-        word-spacing: 1px;
-    }
-}
+
 @media screen and (max-width: 650px){
     .PackCardHold{
         width: 80%;
         margin: 0;
         margin-top: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+    .PackPara{
+        font-size: 14px;
+        line-height: 18px;
+        word-spacing: 1px;
     }
 }
