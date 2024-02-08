@@ -219,7 +219,7 @@
 }
 @media screen and (width <= 375px) {
     .AlumniCardDesc{
-        font-size: 10px;
+        font-size: 13px;
     }
     .AlumniTitleHolder{
         display: flex;
