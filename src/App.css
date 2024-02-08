@@ -13,3 +13,12 @@
       );
   backdrop-filter: blur(1rem);
 }
+marquee{
+  background-color: #F5F0E1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+  /* font-weight: 200; */
+  color: black;
+}

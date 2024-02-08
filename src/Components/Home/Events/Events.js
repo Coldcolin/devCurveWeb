@@ -1,7 +1,7 @@
-import img1 from "../../../assets/Events1.png"
-import img2 from "../../../assets/Events2.png"
-import img3 from "../../../assets/Events3.png"
-import img4 from "../../../assets/Events4.png"
+import img1 from "../../../assets/Events8.png"
+import img2 from "../../../assets/Events7.png"
+import img3 from "../../../assets/Events6.png"
+import img4 from "../../../assets/Events5.png"
 
 export const EventsPhotos =[
     {

@@ -1,11 +1,13 @@
 .PackageContainer{
     width: 100%;
+    overflow-x: hidden;
     min-height: 400px;
     padding: 20px 0 20px 0;
-    background-color:#EDE8DA;
+    background-color:#F5F0E1;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .PackImg{
@@ -32,14 +34,15 @@
 
 .PackTopText{
     color: #023047;
-    font-weight: 500;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 30px;
 }
 
 .PackCardWrap{
     width: 94.3%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    /* padding-left: 200px; */
     /* justify-content: center; */
     /* background-color: #023047; */
 }
@@ -77,6 +80,13 @@
     width: 200px;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 834px){
+    .PackCardWrap{
+        flex-wrap: wrap;
+        
+    }
 }
 
 @media screen and (max-width: 650px){
@@ -119,7 +129,10 @@
         width: 100%;
     }
 }
-@media screen and (width<= 425px){
+@media screen and (width<= 428px){
+    .PackCardWrap{
+        padding-left: 50px;
+    }
     .PackTopText{
         font-size: 22px;
         font-weight: 700;

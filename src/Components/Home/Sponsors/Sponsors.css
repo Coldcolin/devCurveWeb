@@ -1,89 +1,132 @@
 .SponsorsHolder{
     width: 100%;
     height: 50vh;
-    background-color: #023047;
+    background-color: #FFFFFF;
     display: flex;
 
 }
 .SponsorsContainer{
     width: 100%;
-    height: 30vh;
+    height: 25vh;
     padding: 20px 0px 70px 100px;
-    background-color: #D9D9D9;
+    background-color: #F6F6F6;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     margin-top: 100px;
 }
 
-.SponsorsTop{
-    width: 80%;
-    display: flex;
-    /* justify-content: center; */
-    font-size: 25px;
-    font-weight: 500;
-    color: #023047;
-    font-weight: 700;
-}
+
 
 .SponsorsLogo{
-    width: 60%;
+    width: 80%;
     display: flex;
-    /* justify-content: center; */
-    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: red; */
 }
 
 .Logos{
-    width: 150px
+    width: 150px;
+    height: 120px;
+    object-fit: contain;
 }
 
 .Logos1{
-    width: 150px
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    /* background-color: yellow; */
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 834px){
+    .SponsorsContainer{
+        padding-inline: 10px;
+        justify-content: center;
+    }
     .SponsorsLogo{
-        margin-top: 15px;
+        width: 100%;
+        /* gap: 20px; */
+        /* background-color: yellow;; */
     }
     .Logos{
+        width: 15%;
+        height: 40%;
+        
+    }
+    .Logos1{
+        width: 20%;
+        height: 40%;
+    }
+}
+@media screen and (max-width: 650px){
+    /* .SponsorsLogo{
+        margin-top: 15px;
+    } */
+    /* .Logos{
         margin-top: 30px;
         width: 120px;
     }
     .Logos1{
         margin-top: 10px;
         width: 120px;
+    } */
+ */
+}
+@media screen and (max-width: 428px){
+    .SponsorsHolder{
+        height: 30vh;
     }
     .SponsorsContainer{
-        padding-bottom: 40px;
+        padding-inline: 10px;
+        justify-content: center;
+        height: 15vh
+    }
+    
+    .SponsorsLogo{
+        width: 100%;
+        /* gap: 20px; */
+        /* background-color: yellow;; */
+    }
+    .Logos{
+        width: 15%;
+        height: 40%;
+        
+    }
+    .Logos1{
+        width: 20%;
+        height: 40%;
     }
 }
+
 
 @media screen and (width <= 385px){
     
     .SponsorsContainer{
-        width: 100%;
+        /* width: 100%;
         min-height: 30vh;
         padding: 30px 30px 70px 20px;
         background-color: #D9D9D9;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center; */
         /* margin-top: 100px; */
     }
-    .SponsorsTop{
+    /* .SponsorsTop{
         width: 100%;
         display: flex;
         justify-content: center;
         font-size: 16px;
         font-weight: 600;
-    }
-    .SponsorsLogo{
+    } */
+    /* .SponsorsLogo{
         width: 100%;
         justify-content: center;
-    }
-    .Logos{
+    } */
+    /* .Logos{
         margin-top: 30px;
         width: 150px;
         margin-bottom: 30px;
-    }
+    } */
 }
