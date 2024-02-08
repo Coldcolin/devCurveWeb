@@ -1,0 +1,110 @@
+.FaqBody{
+  width: 100%;
+  height: max-content;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.FaqWrap{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.FaqWrap h2{
+ font-size: 30px;
+}
+
+.FaqMain{
+  width: 100%;
+  height: max-content;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.FaqMainLeft{
+  width: 45%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.FaqMainItem1{
+  width: 100%;
+  height: max-content;
+  background: #0b0c31;
+}
+
+.FaqMainItem1A{
+  width: 100%;
+  height: 55px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.FaqMainItem1A h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.FaqMainItem1B{
+  width: 100%;
+  height: 55px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+.FaqMainItem1B.active{
+  width: 100%;
+  height: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  transition: height 0.3s ease;
+
+}
+
+.FaqMainRight{
+  width: 45%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.FaqSeeMore{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.FaqSeeMore span{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.FaqSeeMoreFaRegArrowAltCircleRight{
+  font-size: 20px;
+}

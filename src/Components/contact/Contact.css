@@ -1,8 +1,8 @@
 .ContactTop1{
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     /* background-image: url("../../../assets/Events2.png"); */
-    background:linear-gradient( 90deg, rgba(2, 48, 71, 0.40) 21.55%, rgba(251, 133, 0, 0.38) 100%),url("../../assets/background2.webp");
+    /* background:linear-gradient( 90deg, rgba(2, 48, 71, 0.40) 21.55%, rgba(251, 133, 0, 0.38) 100%),url("../../assets/background2.webp"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,36 +12,47 @@
     align-items: center;
 }
 .ContactTop1 h1{
-    color: white;
-    font-size: 40px;
-    font-weight: 600;
+    color:#FFB703;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
 }
 .ContactTop1 p{
     margin-top: 20px;
-    color: white;
-    font-size: 24px;
-    width: 40%;
+    color: #34393C;
+    font-size: 18px;
+    width: 70%;
     text-align: center;
+    line-height: 32px;
 }
 .GetInTouch{
     width: 100%;
     min-height: 80vh;
     height: auto;
-    background-color: #023047;
+    background-color: #F5F0E1;
     padding: 40px;
     padding-inline: 100px;
-    color: white;
+    color: #34393C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    
+}
+
+.GetInTouch h2 {
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 600;
 }
 .GetInTouchInfo{
     width: 100%;
     min-height: 80%;
     height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
+    display: flex;
+    flex-direction: column;
     gap: 60px;
     margin-top: 30px;
+    align-items: center;
     /* background-color: yellow; */
     & .buttonDisabled{
         width: 300px;
@@ -64,31 +75,51 @@
         flex-direction: column;
         gap: 20px;
         padding: 50px;
+        width: 70%;
+        align-items: center;
 
         & textarea{
             border-radius: 8px;
-            background: rgba(2, 48, 71, 0.20);
+            background: #F3F4F6;
             border: none;
             outline: none;
             height: 180px;
             width: 100%;
+            padding: 10px;
         }
+
+        & h4{
+            color: #FFB703;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 700;
+        }
+
+        & article {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            width: 100%;
+            /* background: red; */
+        }
+
         & input{
             border-radius: 5px;
-            background: rgba(2, 48, 71, 0.20);
+            background: #F3F4F6;
             border: none;
             outline: none;
-            height: 60px;
+            height: 50px;
             width: 100%;
             margin-bottom: 10px;
+            padding-left: 10px;
         }
         & button{
             width: 300px;
             height: 60px;
-            background-color: #023047;
+            background-color: #FFB703;
             border: none;
-            color: white;
-            border-radius: 5px;
+            color: #34393C;
+            border-radius: 20px;
             cursor: pointer;
             font-weight: 700;
             font-size: 18px;
@@ -99,6 +130,19 @@
 
     }
 }
+
+.InputData {
+    display: flex;
+    flex-direction: column;
+    /* background: green; */
+    width: 50%;
+}
+
+.Textarea {
+    width: 100%;
+}
+
+
 .buttonDisabled{
     width: 300px;
     height: 60px;
@@ -154,13 +198,13 @@ button{
 
 .GetInTouchLinks{
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    gap: 10px;
+    gap: 0px;
+    /* background: red; */
+    width: 80%;
 }
 .GetInTouchLink{
-    width: 100%;
+    width: 50%;
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -168,11 +212,13 @@ button{
     font-weight: 400;
     line-height: 60px; /* 300% */
     letter-spacing: 0.5px;
+    /* background: #000; */
 }
 .GetInTouchSocial{
-    width: 100%;
+    width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    align-items: center;
     gap: 20px;
 
     & div{
@@ -185,7 +231,7 @@ button{
             align-items: center;
             width: 60px;
             height: 60px;
-            background-color: white;
+            /* background-color: white; */
             border-radius: 60px;
         }
     }
@@ -198,10 +244,48 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
+    width: 20px;
     height: 60px;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 60px;
+}
+
+.LocationContainer {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.LocationWrapper {
+    width: 80%;
+    height: 100%;
+
+    & h2 {
+        text-align: center;
+        margin-top: 2%;
+        font-size: 32px;
+        line-height: 60px;
+        font-weight: 600;
+        color: #34393C;
+        line-height: 60px;
+    }
+
+    & span {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+}
+
+.LocationMap {
+    width: 100%;
+    height: 70%;
+    background: #000;
 }
 
 @media (max-width: 768px) { /*breakpoint*/
@@ -219,10 +303,52 @@ button{
    
     form {
         width: 90%;
+
+        & article {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        & input {
+            width: 100%;
+        }
     }
     button{
         width: 200px;
     }
+    .InputData {
+        width: 100%;
+    }
+
+    .InputDataInput {
+        width: 100% !important;
+        /* display: none ; */
+    }
+
+    .GetInTouchLinks {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .GetInTouchLink {
+        width: 100%;
+        font-size: 11px;
+        /* background: #000; */
+        line-height: 0px;
+    }
+
+    .GetInTouchSocial {
+       width: 100%;
+    }
+
+    .GetInTouchSocial div div {
+        background-color: transparent;
+    }
+
+    .GetInTouchSocial div{
+        display: flex;
+        gap: 0px;
+}
 }
 
 @media screen and (width <= 425px) { /*breakpoint*/
@@ -278,12 +404,22 @@ button{
         width: 100%;
         padding: 30px;
         gap: 10px;
+
+        & article {
+            flex-direction: column;
+            width: 100%;
+            /* background: #000; */
+        }
+
+        & input {
+            width: 100%;
+        }
     }
     label{
         font-size: 13px;
     }
     input{
-        height: 35px;
+        width: 100%;
      }
      .GetInTouchInfo{
         & form {
@@ -306,6 +442,46 @@ button{
     button{
         width: 200px;
     }
+
+    .InputData {
+        width: 100%;
+    }
+
+    .InputDataInput {
+        width: 100% !important;
+        /* display: none ; */
+    }
+
+    .GetInTouchLink {
+        width: 100%;
+        font-size: 11px;
+        /* background: #000; */
+        line-height: 0px;
+
+        & b {
+            display: none;
+        }
+    }
+
+    .GetInTouchSocial {
+       width: 100%;
+
+       & span {
+         
+        & b {
+            display: none;
+        }
+       }
+    }
+
+    .GetInTouchSocial div div {
+        background-color: transparent;
+    }
+
+    .GetInTouchSocial div{
+        display: flex;
+        gap: 0px;
+}
   }
 
   @media screen and (width <= 320px) {
@@ -316,6 +492,35 @@ button{
     .GetInTouchLink{
         gap: 20px;
     }
+
+    .InputData {
+        width: 100%;
+    }
+
+    .InputDataInput {
+        width: 100% !important;
+        /* display: none ; */
+    }
+
+    .GetInTouchLink {
+        width: 100%;
+        font-size: 11px;
+        /* background: #000; */
+        line-height: 0px;
+    }
+
+    .GetInTouchSocial {
+       width: 100%;
+    }
+
+    .GetInTouchSocial div div {
+        background-color: transparent;
+    }
+
+    .GetInTouchSocial div{
+        display: block;
+        gap: 0px;
+}
   }
 
   .buttonDisabled{

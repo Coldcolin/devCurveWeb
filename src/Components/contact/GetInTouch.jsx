@@ -1,14 +1,17 @@
-import Phone from "../Icons/Phone"
-import Gmail from "../Icons/Gmail"
-import Location from "../Icons/Location"
-import Web from "../Icons/Web"
-import Facebook from "../Icons/Facebook"
-import LinkedIn from "../Icons/LinkedIn"
-import Instagram from "../Icons/Instagram"
-import Twitter from "../Icons/Twitter"
+// import Phone from "../Icons/Phone"
+// import Gmail from "../Icons/Gmail"
+// import Location from "../Icons/Location"
+// import Web from "../Icons/Web"
+// import Facebook from "../Icons/Facebook"
+// import LinkedIn from "../Icons/LinkedIn"
+// import Instagram from "../Icons/Instagram"
+// import Twitter from "../Icons/Twitter"
 import { useRef } from "react"
 import { useState } from "react"
 import emailjs from '@emailjs/browser';
+import { FaInstagram, FaTwitter, FaFacebookF   } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 const GetInTouch = () => {
     const formRef = useRef();
@@ -33,26 +36,34 @@ const GetInTouch = () => {
         <section className="GetInTouchInfo">
             <form ref={formRef} onSubmit={handleSubmit}>
                 <h4>Reach out to me Via message</h4>
-                <label>Name</label>
-                <input name="from_name" />
-                <label>Contact email</label>
-                <input name="user_email"/>
+               <article>
+                <div className="InputData">
+                    <label>Name</label>
+                    <input name="from_name"  className="InputDataInput"/>
+                </div>
+                <div className="InputData">
+                    <label>Contact email</label>
+                    <input name="user_email" className="InputDataInput"/>
+                </div>
+               </article>
+                <div className="Textarea">
                 <label>Message</label>
                 <textarea name="message"/>
+                </div>
                 <button disabled={done} className={done? "buttonDisabled": ""}>Send Now</button>
             </form>
             <article className="GetInTouchLinks">
-                <div className="GetInTouchLink"><Phone/> +2348186793482, +2348137253138</div>
-                <div className="GetInTouchLink"><Gmail/> thecurveafrica@gmail.com</div>
-                <div className="GetInTouchLink"><Location/> 161, Muyibi street, Olodi-Apapa, Lagos</div>
-                <div className="GetInTouchLink"><Web/> www.the-curve.africa</div>
+                {/* <div className="GetInTouchLink"><Phone/> +2348186793482, +2348137253138</div> */}
+                <div className="GetInTouchLink"><MdEmail/> <b>Email Address:</b> thecurveafrica@gmail.com</div>
+                {/* <div className="GetInTouchLink"><Location/> 161, Muyibi street, Olodi-Apapa, Lagos</div> */}
+                {/* <div className="GetInTouchLink"><Web/> www.the-curve.africa</div> */}
                 <div className="GetInTouchSocial">
-                    <h4>@thecurveafrica</h4>
+                    <span><b>Social address:</b> @thecurveafrica</span>
                     <div>
-                        <div><Facebook/></div>
-                        <div><LinkedIn/></div>
-                        <div><Instagram/></div>
-                        <div><Twitter/></div>
+                        <div><FaTwitter/></div>
+                        <div><FaInstagram/></div>
+                        <div><FaFacebookF /></div>
+                        <div><FaLinkedinIn/></div>
                     </div>
                 </div>
             </article>
