@@ -1,7 +1,8 @@
 .FaqBody{
   width: 100%;
   height: max-content;
-  background: #fff;
+  background: #F6F6F6
+  ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,6 +98,7 @@
   justify-content: end;
   align-items: center;
   cursor: pointer;
+  /* margin-top: 5%; */
 }
 
 .FaqSeeMore span{
@@ -107,4 +109,53 @@
 
 .FaqSeeMoreFaRegArrowAltCircleRight{
   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+
+  .FaqWrap {
+    width: 95%;
+  }
+
+  .FaqMain {
+    flex-direction: column;
+    /* background: #000; */
+    width: 100%;
+  }
+
+  .FaqMainLeft {
+    width: 100%;
+  }
+
+  .FaqMainRight {
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .FaqMainItem1 {
+    width: 100%;
+  }
+
+  .FaqSeeMore {
+    margin-top: 5%;
+  }
+  
+}
+@media (width <= 498px) {
+  .FaqMain {
+    flex-direction: column;
+  }
+
+  .FaqMainItem1 {
+    width: 100%;
+  }
+}
+@media (width <= 320px) {
+  .FaqMain {
+    flex-direction: column;
+  }
+
+  .FaqMainItem1 {
+    width: 100%;
+  }
 }
