@@ -17,7 +17,7 @@ function Sponsors() {
               {/* <a href='https://korapay.com/' target='blank' ><img src={Korapay} alt='kora' className='Logos'/></a> */}
               <img src={Korapay} alt='kora' className='Logos'/>
               <img src={Fincra} alt='quidax' className='Logos'/>
-                <img src={Quidax} alt='quidax' className='Logos'/>
+                {/* <img src={Quidax} alt='quidax' className='Logos'/> */}
                 <img src={Some} alt='quidax' className='Logos'/>
         </div>
       </section>

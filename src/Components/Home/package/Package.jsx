@@ -57,7 +57,7 @@ const Package = () => {
             <Card 
                 icon={icon4}
                 bg='#219ebc'
-                title='Guidance every step of thr way'
+                title='Guidance every step of the way'
                 bd='2px solid #219ebc'
                 para='Benefit from Personalized Mentorship Throughout Your Journey. We Pair You with a Dedicated Mentor who will Provide Expert Guidance and Support, Ensuring You Have the Best Possible Learning Experience and Guidance as You Progress Towards Your Goals.'
             />
