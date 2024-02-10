@@ -20,6 +20,7 @@ const SlideInWhenVisible = ({ children }) => {
       animate={inView ? 'visible' : 'hidden'}
       variants={variants}
       transition={{ duration: 0.5 }} // Adjust the duration as needed
+      style={{width: "100%"}}
     >
       {children}
     </motion.div>

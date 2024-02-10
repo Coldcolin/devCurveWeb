@@ -89,7 +89,7 @@
     display: none
 }
 .AlumniCards{
-    width: 80%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,9 +112,9 @@
     color: black;
     border-radius: 6px;
     margin-block-end: 20px;
-    box-shadow: 1px 7px 19px 4px rgba(150,147,147,0.75);
-    -webkit-box-shadow: 1px 7px 19px 4px rgba(150,147,147,0.75);
-    -moz-box-shadow: 1px 7px 19px 4px rgba(150,147,147,0.75);
+    box-shadow: 0px 2px 20px 0px rgba(199,196,196,0.75);
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(199,196,196,0.75);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(199,196,196,0.75);
 }
 .AlumniImageandTitle{
     width: 100%;
@@ -127,9 +127,9 @@
     /* padding-top: 10px;  */
 }
 .AlumniImageHolder{
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
 }
 .AlumniImage{
     width: 100%;
@@ -144,9 +144,11 @@
     font-size: 18px;
     word-spacing: 12px;
     line-height: 25px;
+    
 }
 .AlumniDescHolder{
-    /* background-color: red; */
+    width: 73%;
+    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -154,7 +156,6 @@
 
 
 @media screen and (width <= 768px) {
- 
     .AlumniCard{
         width: 100%;
     }
@@ -186,9 +187,9 @@
         word-spacing: 5px;
     }
     .AlumniImageHolder{
-        width: 70px;
-        height: 70px;
-        border-radius: 70px;
+        /* width: 70px; */
+        /* height: 70px; */
+        /* border-radius: 70px; */
     }
     .AlumniImage{
         width: 100%;
@@ -236,7 +237,8 @@
         font-weight: 400;
         line-height: 20px; /* 156.25% */
         letter-spacing: 0.05px;
-    
     }
-    
+    .AlumniCards{
+        width: 100%
+    }
 }
