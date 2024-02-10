@@ -8,7 +8,7 @@ const AboutMiddle = () => {
           <h2>Our Mission</h2>
           <div className="AboutMission">
             <article className="AboutMissionText">
-            Our Mission to Mentor and Train Young Minds in Software Engineering
+           <p> Our Mission to Mentor and Train Young Minds in Software Engineering</p>
             <br/>
             <br/>
             At The Curve Africa, we are dedicated to empowering the youth of Africa through our comprehensive software engineering academy. With a firm belief in the potential of young individuals, we provide mentorship and on-site training programs for those who are eager to learn and commit to a transformative 6-month journey.
@@ -26,7 +26,7 @@ const AboutMiddle = () => {
           </div>
           <div className="AboutMiddle">
             <h2>Why Choose The Curve Africa</h2>
-            <div className="AboutWhy">
+            {/* <div className="AboutWhy">
             <article className="AboutWhyImage">
               <img src={Image2} alt="class photo"/>
             </article>
@@ -43,7 +43,8 @@ const AboutMiddle = () => {
               Benefit from our guidance in building a compelling portfolio to showcase your abilities, opening doors to internships and junior software engineering roles. Access job opportunities within our network.
               Choose The Curve Africa for a comprehensive and impactful learning experience, empowering you for success in the software engineering industry.<br/><br/>
             </article>
-            </div>
+            </div> */}
+            <img src="./Frame 1098.svg" alt=""/>
           </div>
         </div>
     </>
