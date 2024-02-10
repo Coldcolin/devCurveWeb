@@ -1,11 +1,11 @@
-import Sam from "../../assets/SamK.png"
-import Cynthia from "../../assets/Cynthia.png"
-import Ubani from "../../assets/Ubani.png"
+import Sam from "../../assets/sam.svg"
+import Cynthia from "../../assets/Cynthia.svg"
+import Ubani from "../../assets/Ubani.svg"
 import Colin from "../../assets/Me.png"
-import Joshua from "../../assets/Joshua.png"
+import Joshua from "../../assets/Joshua.svg"
 import Ebuka from "../../assets/Ebuka.png"
 import Obinna from "../../assets/Obinna.png"
-
+// import samule
 
 const staff =[
   {
@@ -60,7 +60,7 @@ const Staff =(prop)=>{
                 <h3>{prop.name}</h3>
                 <p>{prop.des}</p>
             </article>
-        </section>
+      </section>
   )
 }
 
