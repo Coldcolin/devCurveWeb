@@ -60,9 +60,10 @@
     }
 }
 @media screen and (max-width: 650px){
-    /* .SponsorsLogo{
-        margin-top: 15px;
-    } */
+    .SponsorsLogo{
+        /* background-color: aqua; */
+        padding-top: 30px;
+    }
     /* .Logos{
         margin-top: 30px;
         width: 120px;
@@ -71,7 +72,7 @@
         margin-top: 10px;
         width: 120px;
     } */
- */
+
 }
 @media screen and (max-width: 428px){
     .SponsorsHolder{

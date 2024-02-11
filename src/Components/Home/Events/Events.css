@@ -12,12 +12,12 @@
     color: #023047;
     padding-block: 20px;
     font-size: 35px;
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 90%;
 }
 .EventsContent{
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     /* padding: 20px; */
     justify-content: center;
@@ -59,7 +59,7 @@
 @media screen and (width < 600px) {
     .EventsContent{
         width: 90%;
-        background-color: yellow;
+        /* background-color: yellow; */
     }
     .Event{
         width: 100%;
