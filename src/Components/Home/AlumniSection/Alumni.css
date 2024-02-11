@@ -99,7 +99,7 @@
     padding-inline: 10px;
 }
 .AlumniCard{
-    width: 90%;
+    width: 100%;
     /* min-width: 300px; */
     min-height: 500px;
     max-height: 500px;
@@ -168,17 +168,22 @@
     }
 }
 @media screen and (width <= 428px) {
-    .AlumniCard{
-        width: 300px;
-    }
-    .AlumniText{
-        width: 90%;
+    .AlumniContainer{
+        padding-inline: 10px;
     }
     
     .AlumniCard{
         width: 100%;
         font-size: 16px;
+        min-height: 400px;
+        max-height: 400px;
+        height: 400px;
     }
+    
+    .AlumniText{
+        width: 90%;
+    }
+    
     .AlumniTitleHolder{
         padding-left: 10px;
     }
@@ -227,9 +232,12 @@
         flex-direction: column;
         align-items: flex-start;
     }
+    .AlumniHeading{
+        font-size: 25px;
+    }
     .AlumniText{
         width: 100%;
-        color: #FFF;
+        /* color: #FFF; */
         text-align: left;
         font-family: Inter;
         font-size: 16px;

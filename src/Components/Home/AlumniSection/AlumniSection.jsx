@@ -9,13 +9,13 @@ const AlumniSection = () => {
   const firstSettings = {
     dots: false,
     infinite: true,
-    speed: 1200,
-    slidesToShow: 3,
+    speed: 2200,
+    slidesToShow: 3.25,
     slidesToScroll: 1,
     initialSlide: 0,
     autoplay: true,
     pauseOnHover: true,
-    autoplaySpeed: 3500,
+    autoplaySpeed: 10000,
     cssEase: "linear",
     nextArrow: <SampleNextArrow />,
     prevArrow: <SampleNextArrow />,
@@ -23,7 +23,7 @@ const AlumniSection = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 2.5,
           slidesToScroll: 1.5,
           infinite: true,
           dots: false
@@ -43,7 +43,8 @@ const AlumniSection = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 2
+          infinite: true,
+          dots: false
         }
       },
       {
