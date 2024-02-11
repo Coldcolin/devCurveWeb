@@ -132,6 +132,7 @@
 @media screen and (width<= 428px){
     .PackCardWrap{
         padding-left: 50px;
+        /* align-items: center; */
     }
     .PackTopText{
         font-size: 22px;

@@ -278,9 +278,10 @@
     .HeroLeft a{
         /* margin-left: -100px; */
     }
+    
     .HeroImg{
         animation: none;
-        width: 20%;
+        width: 30%;
         left: 0;
         top: 85%;
     }
