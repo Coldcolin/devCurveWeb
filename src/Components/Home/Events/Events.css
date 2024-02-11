@@ -4,37 +4,39 @@
     align-items: center;
     width: 100%;
     min-height:  70vh;
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #F5F0E1;
     font-family: 'Quicksand', sans-serif;
 }
 .EventsHeader{
     color: #023047;
-    padding: 20px;
+    padding-block: 20px;
     font-size: 35px;
-    
-    width: 80%;
+    background-color: yellow;
+    width: 90%;
 }
 .EventsContent{
     width: 100%;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
     display: flex;
-    padding: 20px;
+    /* padding: 20px; */
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
-.Event img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 .Event{
-    width: 40%;
+    width: 44.5%;
+    /* min-width: 300px; */
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
     /* background-color: yellow; */
+}
+
+.Event img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .EventsSee{
@@ -48,13 +50,24 @@
     font-weight: 500;
     font-size: 20px;
 }
+@media screen and (max-width: 834px){
+    .Event{
+        width: 90%;
+    }
+}
 
 @media screen and (width < 600px) {
     .EventsContent{
         width: 90%;
+        background-color: yellow;
     }
     .Event{
         width: 100%;
-        object-fit: contain;
+        /* object-fit: contain; */
+    }
+}
+@media screen and (width <= 428px) {
+    .Event{
+        height: 400px;
     }
 }
