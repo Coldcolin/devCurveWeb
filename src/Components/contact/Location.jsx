@@ -24,7 +24,8 @@ const Location = () => {
             </span>
 
             <div className='LocationMap'>
-            <GoogleMapReact
+            <iframe src="https://maps.google.com/maps?q=163,%20Muyibi%20street,%20Olodi-Apapa,%20Lagos&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" style={{width: "100%", height:"100%"}}></iframe>
+            {/* <GoogleMapReact
         bootstrapURLKeys={{ key: "" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
@@ -34,7 +35,7 @@ const Location = () => {
           lng={30.337844}
           text="My Marker"
         />
-      </GoogleMapReact>
+      </GoogleMapReact> */}
             </div>
         </div>
     </div>
