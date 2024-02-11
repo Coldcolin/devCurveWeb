@@ -238,7 +238,9 @@
         grid-template-columns: none;
     }
     .AboutTop1 p{
-        font-size: 20px;
+        font-size: 17px;
+        /* background-color: yellow; */
+        width: 90%;
     }
 
     .AboutImgTop {
@@ -259,7 +261,7 @@
         grid-template-columns: none;
     }
     .AboutTop1 p{
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .AboutImgTop {
