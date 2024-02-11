@@ -1,5 +1,5 @@
 import Image from "../../assets/hack2-1_1.webp"
-import Image2 from "../../assets/WhatsApp-Image-2022-10-22-at-07.56-1.webp"
+// import Image2 from "../../assets/WhatsApp-Image-2022-10-22-at-07.56-1.webp"
 
 const AboutMiddle = () => {
   return (
@@ -44,7 +44,8 @@ const AboutMiddle = () => {
               Choose The Curve Africa for a comprehensive and impactful learning experience, empowering you for success in the software engineering industry.<br/><br/>
             </article>
             </div> */}
-            <img src="./Frame 1098.svg" alt=""/>
+            <img src="./Frame 1098.svg" alt="" className="FDesktop"/>
+            <img src="./FrameM 1099.png" alt="" className="FMolbile"/>
           </div>
         </div>
     </>

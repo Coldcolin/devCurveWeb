@@ -193,6 +193,10 @@
     }
 }
 
+.FMolbile {
+    display: none;
+}
+
 @media (max-width: 768px) { /*breakpoint*/
     .AboutTop {
         height: max-content;
@@ -211,6 +215,15 @@
     .AboutImgTop {
         display: flex;
         flex-direction: column;
+    }
+    .FDesktop {
+        display: none;
+    }
+
+    .FMolbile {
+        display: flex;
+        width: 90%;
+        padding-bottom: 5%;
     }
   }
 
