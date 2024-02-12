@@ -14,7 +14,7 @@ const AboutMiddle = () => {
             At The Curve Africa, we are dedicated to empowering the youth of Africa through our comprehensive software engineering academy. With a firm belief in the potential of young individuals, we provide mentorship and on-site training programs for those who are eager to learn and commit to a transformative 6-month journey.
             <br/>
             <br/>
-            Our mission is ambitious yet resolute: to train over 5,000 aspiring tech enthusiasts across Africa, completely free of charge, within the next 10 years. By equipping them with in-demand skills, practical experience, and a strong foundation in software engineering, we strive to nurture a generation of capable professionals who can drive technological advancements throughout the continent.
+            Our mission is ambitious yet resolute: to train over 10,000 aspiring tech enthusiasts across Africa, completely free of charge, within the next 10 years. By equipping them with in-demand skills, practical experience, and a strong foundation in software engineering, we strive to nurture a generation of capable professionals who can drive technological advancements throughout the continent.
             Through our rigorous curriculum, expert mentorship, and emphasis on hands-on learning, we empower our students to become proficient software engineers, ready to tackle real-world challenges and contribute meaningfully to the ever-evolving tech industry. We believe that by investing in the potential of African youth, we can foster economic growth, bridge the digital divide, and create a brighter future for all.
             <br/>
             <br/>

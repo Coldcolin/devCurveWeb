@@ -5,6 +5,7 @@ import Colin from "../../assets/Me.png"
 import Joshua from "../../assets/Joshua.svg"
 import Ebuka from "../../assets/Ebuka.png"
 import Obinna from "../../assets/Obinna.png"
+import Franklin from "../../assets/Ellipse 22.svg"
 // import samule
 
 const staff =[
@@ -22,30 +23,36 @@ const staff =[
   },
   {
     id: 3,
+    des:"Co-founder",
+    name: "Franklin Anozie",
+    image: Franklin
+  },
+  {
+    id: 4,
     des:"Back-end Instructor",
     name: "Friday U. Ubani",
     image: Ubani
   },
   {
-    id: 4,
+    id: 5,
     des:"Front-end Instructor",
     name: "Colin Decorce",
     image: Colin
   },
   {
-    id: 5,
+    id: 6,
     des:"Back-end Instructor",
     name: "Aninku Joshua",
     image: Joshua
   },
   {
-    id: 6,
+    id: 7,
     des:"Front-end Instructor",
     name: "Ebuba Nweje",
     image: Ebuka
   },
   {
-    id: 7,
+    id: 8,
     des:"Product design Instructor",
     name: "Obinna Nwachukwu",
     image: Obinna

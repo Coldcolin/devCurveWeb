@@ -42,8 +42,9 @@ const Faq = () => {
                                     }`}
                                 >
                                     <p>
-                                        The Curve Africa cohort 4 will open 12th
-                                        February, 2024
+                                    -You must be available for the whole 6 month duration of the training <br /> <br />
+                                    -own or have access to a working laptop <br /> <br />
+                                    -And be willing to learn and dedicate to the training
                                     </p>
                                 </div>
                             </div>
@@ -68,8 +69,9 @@ const Faq = () => {
                                     }`}
                                 >
                                     <p>
-                                        The Curve Africa cohort 4 will open 12th
-                                        February, 2024
+                                    - visit our website <br /> <br />
+                                    - click on the register button <br /> <br />
+                                    - fill the form and submit
                                     </p>
                                 </div>
                             </div>
@@ -96,8 +98,7 @@ const Faq = () => {
                                     }`}
                                 >
                                     <p>
-                                        The Curve Africa cohort 4 will open 12th
-                                        February, 2024
+                                    we are currently located in Lagos, Nigeria
                                     </p>
                                 </div>
                             </div>
@@ -122,8 +123,7 @@ const Faq = () => {
                                     }`}
                                 >
                                     <p>
-                                        The Curve Africa cohort 4 will open 12th
-                                        February, 2024
+                                    Currently, we only run the onsite training
                                     </p>
                                 </div>
                             </div>
@@ -148,8 +148,7 @@ const Faq = () => {
                                     }`}
                                 >
                                     <p>
-                                        The Curve Africa cohort 4 will open 12th
-                                        February, 2024
+                                    Currently our training is only on weekdays
                                     </p>
                                 </div>
                             </div>
@@ -176,8 +175,7 @@ const Faq = () => {
                                     }`}
                                 >
                                     <p>
-                                        The Curve Africa cohort 4 will open 12th
-                                        February, 2024
+                                    Our training days are Mondays, Wednesdays and Fridays.
                                     </p>
                                 </div>
                             </div>
@@ -204,8 +202,7 @@ const Faq = () => {
                                     }`}
                                 >
                                     <p>
-                                        The Curve Africa cohort 4 will open 12th
-                                        February, 2024 working
+                                       our intensive training runs for 6 months
                                     </p>
                                 </div>
                             </div>
