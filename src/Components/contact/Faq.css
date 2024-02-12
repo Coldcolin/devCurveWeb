@@ -53,23 +53,31 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  padding-top: 10px;
 }
 
 .FaqMainItem1A h3 {
   font-weight: 700;
   font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .FaqMainItem1B{
   width: 100%;
-  height: 55px;
+  height: max-content;
   padding-left: 40px;
   padding-right: 40px;
   display: flex; 
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  /* align-items: center; */
   overflow: hidden;
   transition: height 0.3s ease;
+  padding-top: 10px;
+}
+
+.FaqMainItem1B p {
+  padding-bottom: 10px;
 }
 .FaqMainItem1B.active{
   width: 100%;
