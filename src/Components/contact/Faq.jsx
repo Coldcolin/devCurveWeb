@@ -26,7 +26,7 @@ const Faq = () => {
                                     className="FaqMainItem1A"
                                     onClick={() => setDropFaqOne(!dropFaqOne)}
                                 >
-                                    <h3>When is your next cohort starting</h3>
+                                    <h3>What are the requirements to join the Curve africa</h3>
                                     <FaChevronDown
                                         style={{
                                             rotate: `${
@@ -52,7 +52,7 @@ const Faq = () => {
                                     className="FaqMainItem1A"
                                     onClick={() => setDropFaqTwo(!dropFaqTwo)}
                                 >
-                                    <h3>When is your next cohort starting</h3>
+                                    <h3>How do I apply for the training</h3>
                                     <FaChevronDown
                                         style={{
                                             rotate: `${
@@ -80,7 +80,7 @@ const Faq = () => {
                                         setDropFaqThree(!dropFaqThree)
                                     }
                                 >
-                                    <h3>When is your next cohort starting</h3>
+                                    <h3>Where is your location</h3>
                                     <FaChevronDown
                                         style={{
                                             rotate: `${
@@ -106,7 +106,7 @@ const Faq = () => {
                                     className="FaqMainItem1A"
                                     onClick={() => setDropFaqFour(!dropFaqFour)}
                                 >
-                                    <h3>When is your next cohort starting</h3>
+                                    <h3>Is your program online</h3>
                                     <FaChevronDown
                                         style={{
                                             rotate: `${
@@ -132,7 +132,7 @@ const Faq = () => {
                                     className="FaqMainItem1A"
                                     onClick={() => setDropFaqFive(!dropFaqFive)}
                                 >
-                                    <h3>When is your next cohort starting</h3>
+                                    <h3>Do you have weekend classes</h3>
                                     <FaChevronDown
                                         style={{
                                             rotate: `${
@@ -160,7 +160,7 @@ const Faq = () => {
                                     className="FaqMainItem1A"
                                     onClick={() => setDropFaqSix(!dropFaqSix)}
                                 >
-                                    <h3>When is your next cohort starting</h3>
+                                    <h3>When are your training days</h3>
                                     <FaChevronDown
                                         style={{
                                             rotate: `${
@@ -188,7 +188,7 @@ const Faq = () => {
                                         setDropFaqSeven(!dropFaqSeven)
                                     }
                                 >
-                                    <h3>When is your next cohort starting</h3>
+                                    <h3>How long is the training</h3>
                                     <FaChevronDown
                                         style={{
                                             rotate: `${
@@ -205,11 +205,11 @@ const Faq = () => {
                                 >
                                     <p>
                                         The Curve Africa cohort 4 will open 12th
-                                        February, 2024
+                                        February, 2024 working
                                     </p>
                                 </div>
                             </div>
-                            <div className="FaqMainItem1">
+                            {/* <div className="FaqMainItem1">
                                 <div
                                     className="FaqMainItem1A"
                                     onClick={() =>
@@ -242,7 +242,7 @@ const Faq = () => {
                                     className="FaqMainItem1A"
                                     onClick={() => setDropFaqNine(!dropFaqNine)}
                                 >
-                                    <h3>When is your next cohort starting</h3>
+                                    <h3>When is your next cohort starting </h3>
                                     <FaChevronDown
                                         style={{
                                             rotate: `${
@@ -268,7 +268,7 @@ const Faq = () => {
                                     className="FaqMainItem1A"
                                     onClick={() => setDropFaqTen(!dropFaqTen)}
                                 >
-                                    <h3>When is your next cohort starting</h3>
+                                    <h3>When is your next cohort starting </h3>
                                     <FaChevronDown
                                         style={{
                                             rotate: `${
@@ -288,7 +288,7 @@ const Faq = () => {
                                         February, 2024
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <p className="FaqSeeMore">
