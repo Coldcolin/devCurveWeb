@@ -205,7 +205,7 @@ const Faq = () => {
                                 >
                                     <p>
                                         The Curve Africa cohort 4 will open 12th
-                                        February, 2024
+                                        February, 2024 working
                                     </p>
                                 </div>
                             </div>
