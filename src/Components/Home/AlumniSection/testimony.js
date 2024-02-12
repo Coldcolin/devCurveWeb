@@ -39,7 +39,7 @@ export const testimony=[
     name: "Aninku Joshua",
     image: Joshua,
     stack: "Backend Developer",
-    text: "I came into tech journey less than a year ago am with the fear of whether i am going to cope or scale through.Fortunately for me, i came across  @thecurveafrica,and the rest the say is history.Aninku Joshua (Back-end Engineer)"
+    text: "As I embarked on my journey into the tech, I was filled with apprehension and uncertainties about navigating and succeeding in this rapidly evolving field. However, my concerns were alleviated when I stumbled upon The Curve Africa with exceptional instructors' with their invaluable guidance and support, Looking back, I can confidently say that my experience with The Curve Africa has played a pivotal role in shaping my trajectory and paving the way for my success in the tech world"
 },
 {
     id: 5,
