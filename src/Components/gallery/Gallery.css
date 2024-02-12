@@ -78,6 +78,13 @@
     }
 }
 
+@media (max-width: 1300px) {
+    .GalleryBody{
+        & p{
+            width: 90%;
+        }
+    }
+} /*breakpoint*/
 @media (max-width: 834px) { /*breakpoint*/
     .GalleryBody{
         & section {
