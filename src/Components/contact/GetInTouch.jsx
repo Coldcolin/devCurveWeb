@@ -20,13 +20,14 @@ const GetInTouch = () => {
     const handleSubmit = (e) =>{
         e.preventDefault()
         setDone(true)
-        emailjs.sendForm('service_7qp8uil', 'template_hre6l8h', formRef.current, 'e_9mk8PU9uPmeE13U')
+        emailjs.sendForm('service_ukpfz2d', 'template_hre6l8h', formRef.current, 'e_9mk8PU9uPmeE13U')
       .then((result) => {
           console.log(result.text);
           alert("mail sent successfully")
           setDone(false)
       }, (error) => {
           console.log(error.text);
+          alert("something went wrong")
           setDone(false)
       });
     }
