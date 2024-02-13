@@ -28,7 +28,7 @@ function Footer() {
                     <div className='SocialLinks'>
                     <h4>Social Media</h4>
                         <div className="LinksHolder">
-                        <a href='https://fb.me/thecurveafrica' target='blank'><ImFacebook2 /></a>
+                        <a href='https://www.facebook.com/thecurveafrica' target='blank'><ImFacebook2 /></a>
                         <a href='https://twitter.com/thecurveafrica' target='blank'><BsTwitter /></a>
                         <a href='https://www.linkedin.com/company/the-curve-africa/' target='blank'><GrLinkedin /></a>
                         <a href='https://instagram.com/thecurveafrica?igshid=YmMyMTA2M2Y=' target='blank'><GrInstagram /></a>
@@ -45,7 +45,7 @@ function Footer() {
                     <Link to="/gallery">Gallery</Link>
                 </div>
                 <div className='FooterBtnContain'>
-                <a href="https://docs.google.com/forms/d/https://docs.google.com/forms/d/1Bzjt1KihWusX7aaTemlvWjJMe2ptzKM5c7q5aw_pa4k/closedform-7kn-gyVUlkh8/" target='blank'><button className='FooterBtn'>Apply Now!</button></a>
+                <a href="https://forms.gle/xGiZeRqBum8CNZ267" target='blank'><button className='FooterBtn'>Apply Now!</button></a>
                 </div>
             </div>
             <div className='FooterLine'></div>

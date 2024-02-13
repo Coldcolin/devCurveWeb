@@ -8,7 +8,7 @@ import Isaac from "../../../assets/Isaac.jpg"
 export const testimony=[
 {
     id: 1,
-    name: "Sulion Olalere Adebayo",
+    name: "Suliton Olalere Adebayo",
     image: Sul,
     stack: "Frontend Developer",
     text: "Aspiring tech bro transformed by 'The Curve.' Cutting-edge curriculum and expert guidance propelled my career to new heights, opening doors to exciting opportunities. Now equipped to make a lasting impact in the tech industry."
