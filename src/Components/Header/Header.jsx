@@ -2,9 +2,10 @@ import {useState} from 'react'
 import './Header.css'
 import {NavLink} from 'react-router-dom'
 import Logo1 from '../Images/curve1.png'
-import Logo2 from '../Images/curve2.png'
+// import Logo2 from '../Images/curve2.png'
 import {BiMenu} from 'react-icons/bi'
 // import {ImCancelCircle} from 'react-icons/im'
+import Swal from 'sweetalert2'
 import Cancel from "../Icons/Cancel"
 import Menu from './Menu'
 
@@ -27,6 +28,15 @@ function Header() {
     setSeeMobile(!seeMobile)
   }
 
+  const showAlert =()=>{
+    Swal.fire({
+        title: "Application Ended",
+        text: "Please watch out for the next Cohort application",
+        icon: "warning",
+        confirmButtonColor: "#FFB703"
+      });
+}
+
   window.addEventListener('scroll', changeColor)
 
 
@@ -45,7 +55,8 @@ function Header() {
                       <NavLink to="contact" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>Contact</NavLink>
                       <NavLink to="gallery" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>Gallery</NavLink>
                     </div>
-                    <a href="https://forms.gle/xGiZeRqBum8CNZ267" target='blank' className="aTag"><button className='HeaderBtn2'>Register for Free!</button></a>
+                    {/* <a href="https://forms.gle/xGiZeRqBum8CNZ267" target='blank' className="aTag"><button className='HeaderBtn2'>Register for Free!</button></a> */}
+                    <a onClick={showAlert} className="aTag"><button className='HeaderBtn2'>Register for Free!</button></a>
                 </div>
             </div>
             <div className={'HeaderBurger'}>
