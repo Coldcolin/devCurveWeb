@@ -8,10 +8,14 @@ function Hero() {
     
     const showAlert =()=>{
         Swal.fire({
-            title: "Application Ended",
+            title: "Application Closed",
             text: "Please watch out for the next Cohort application",
             icon: "warning",
-            confirmButtonColor: "#FFB703"
+            buttonsStyling: false,
+            customClass: {
+              confirmButton: 'confirm-button-class',
+              cancelButton: 'cancel-button-class'
+            }
           });
     }
 
@@ -20,7 +24,7 @@ function Hero() {
     <>
         <section className='HeroContainer'>
             <div className='Hero1'>
-            <marquee>Registration for The Curve Africa Academy cohort 4.0 is now open!</marquee>
+            <marquee>Registration for The Curve Africa Academy cohort 4.0 is now closed!</marquee>
             </div>
             <div className='Bottom'>
                 <div className='BottomWrap'>

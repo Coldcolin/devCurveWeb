@@ -22,3 +22,9 @@ marquee{
   /* font-weight: 200; */
   color: black;
 }
+
+.confirm-button-class{
+  background-color: #FFB703;
+  /* background-color: red; */
+  border-color: #FFB703;
+}
