@@ -3,9 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://the-curve.africa",  
+  "homepage": "https://the-curve.africa",
   "scripts": {
-    "dev" : "vite --host",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -27,7 +27,8 @@
     "react-router-dom": "^6.12.0",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "sweetalert": "^2.1.2"
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.10.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

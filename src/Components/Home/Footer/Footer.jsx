@@ -9,10 +9,20 @@ import Logo from '../../Images/curve1.png'
 import { ImFacebook2 } from "react-icons/im";
 import { LuMail } from "react-icons/lu";
 import { Link } from 'react-router-dom'
+import Swal from 'sweetalert2'
 
 function Footer() {
 
     let date = new Date().getFullYear();
+
+    const showAlert =()=>{
+        Swal.fire({
+            title: "Application Ended",
+            text: "Please watch out for the next Cohort application",
+            icon: "warning",
+            confirmButtonColor: "#FFB703"
+          });
+    }
 
   return (
     <>
@@ -45,7 +55,7 @@ function Footer() {
                     <Link to="/gallery">Gallery</Link>
                 </div>
                 <div className='FooterBtnContain'>
-                <a href="https://forms.gle/xGiZeRqBum8CNZ267" target='blank'><button className='FooterBtn'>Apply Now!</button></a>
+                <a onClick={showAlert}><button className='FooterBtn'>Apply Now!</button></a>
                 </div>
             </div>
             <div className='FooterLine'></div>
