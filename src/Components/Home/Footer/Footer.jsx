@@ -17,10 +17,14 @@ function Footer() {
 
     const showAlert =()=>{
         Swal.fire({
-            title: "Application Ended",
+            title: "Application Closed",
             text: "Please watch out for the next Cohort application",
             icon: "warning",
-            confirmButtonColor: "#FFB703"
+            buttonsStyling: false,
+            customClass: {
+              confirmButton: 'confirm-button-class',
+              cancelButton: 'cancel-button-class'
+            }
           });
     }
 

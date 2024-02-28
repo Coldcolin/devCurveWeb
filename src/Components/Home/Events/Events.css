@@ -70,4 +70,7 @@
     .Event{
         height: 400px;
     }
+    .EventsSee{
+        width: 80%;
+    }
 }
