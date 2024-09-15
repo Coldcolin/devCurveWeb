@@ -152,9 +152,15 @@
   .FaqMain {
     flex-direction: column;
   }
-
   .FaqMainItem1 {
     width: 100%;
+    padding-block: 6px;
+  }
+  .FaqMainItem1A h3{
+    font-size: 16px;
+  }
+  .FaqMainItem1A{
+    padding-inline: 20px;
   }
 }
 @media (width <= 320px) {
@@ -164,6 +170,7 @@
 
   .FaqMainItem1 {
     width: 100%;
+    padding-block: 6px;
   }
   .FaqMainItem1A h3{
     font-size: 16px;
