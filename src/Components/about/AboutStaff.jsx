@@ -1,11 +1,13 @@
 import Sam from "../../assets/sam.svg"
 import Cynthia from "../../assets/Cynthia.svg"
-import Ubani from "../../assets/Ubani.svg"
+// import Ubani from "../../assets/Ubani.svg"
 import Colin from "../../assets/Me.png"
 import Joshua from "../../assets/Joshua.svg"
-import Ebuka from "../../assets/Ebuka.png"
+import Ebuka from "../../assets/ebuka.jpg"
 import Obinna from "../../assets/Obinna.png"
 import Franklin from "../../assets/Ellipse 22.svg"
+import Ahmed from "../../assets/Ahmed.jpg"
+import desola from "../../assets/modesola.jpg"
 // import samule
 
 const staff =[
@@ -29,33 +31,39 @@ const staff =[
   },
   {
     id: 4,
-    des:"Back-end Instructor",
-    name: "Friday U. Ubani",
-    image: Ubani
-  },
-  {
-    id: 5,
     des:"Front-end Instructor",
     name: "Colin Decorce",
     image: Colin
   },
   {
-    id: 6,
+    id: 5,
     des:"Back-end Instructor",
     name: "Aninku Joshua",
     image: Joshua
   },
   {
-    id: 7,
+    id: 6,
     des:"Front-end Instructor",
     name: "Ebuba Nweje",
     image: Ebuka
   },
   {
-    id: 8,
+    id: 7,
     des:"Product design Instructor",
     name: "Obinna Nwachukwu",
     image: Obinna
+  },
+  {
+    id: 8,
+    des:"Back-end Instructor",
+    name: "Ahmed Isiaka",
+    image: Ahmed
+  },
+  {
+    id: 9,
+    des:"Social Media Manager",
+    name: "Modesolaoluwa G Asemudara",
+    image: desola
   },
 ]
 

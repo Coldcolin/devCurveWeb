@@ -165,4 +165,10 @@
   .FaqMainItem1 {
     width: 100%;
   }
+  .FaqMainItem1A h3{
+    font-size: 16px;
+  }
+  .FaqMainItem1A{
+    padding-inline: 20px;
+  }
 }

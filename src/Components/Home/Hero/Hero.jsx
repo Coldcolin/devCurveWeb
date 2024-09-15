@@ -24,7 +24,7 @@ function Hero() {
     <>
         <section className='HeroContainer'>
             <div className='Hero1'>
-            <marquee>Registration for The Curve Africa Academy cohort 4.0 is now closed!</marquee>
+            <marquee>Registration for The Curve Africa Academy cohort 5.0 is now open!</marquee>
             </div>
             <div className='Bottom'>
                 <div className='BottomWrap'>
@@ -41,7 +41,7 @@ function Hero() {
                         {/* <a href="https://forms.gle/xGiZeRqBum8CNZ267" target='blank' className="HeroTag">
                         <button className='HeroBtn2'>Register For Free!</button>
                         </a> */}
-                        <a onClick={showAlert} className="HeroTag">
+                        <a href="https://forms.gle/inbwx6ji5TrdTeuf9" target='_blank' rel='noopener noreferrer' className="HeroTag">
                         <button className='HeroBtn2'>Register For Free!</button>
                         </a>
                         <div className='HeroImg'>

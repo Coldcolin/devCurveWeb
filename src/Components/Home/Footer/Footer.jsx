@@ -59,7 +59,7 @@ function Footer() {
                     <Link to="/gallery">Gallery</Link>
                 </div>
                 <div className='FooterBtnContain'>
-                <a onClick={showAlert}><button className='FooterBtn'>Apply Now!</button></a>
+                <a href="https://forms.gle/inbwx6ji5TrdTeuf9" target='_blank' rel='noopener noreferrer'><button className='FooterBtn'>Apply Now!</button></a>
                 </div>
             </div>
             <div className='FooterLine'></div>
