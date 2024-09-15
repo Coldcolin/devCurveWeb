@@ -288,12 +288,12 @@ const Faq = () => {
                             </div> */}
                         </div>
                     </div>
-                    <p className="FaqSeeMore">
+                    {/* <p className="FaqSeeMore">
                         <span>
                             See more
                             <FaRegArrowAltCircleRight className="FaqSeeMoreFaRegArrowAltCircleRight" />
                         </span>
-                    </p>
+                    </p> */}
                 </div>
             </div>
         </>

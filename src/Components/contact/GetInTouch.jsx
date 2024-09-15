@@ -36,22 +36,22 @@ const GetInTouch = () => {
         <h2>Get In touch</h2>
         <section className="GetInTouchInfo">
             <form ref={formRef} onSubmit={handleSubmit}>
-                <h4>Reach out to me Via message</h4>
+                <h4>Reach out to us via message</h4>
                <article>
                 <div className="InputData">
                     <label>Name</label>
-                    <input name="from_name"  className="InputDataInput"/>
+                    <input name="from_name"  className="InputDataInput" required={true}/>
                 </div>
                 <div className="InputData">
                     <label>Contact email</label>
-                    <input name="user_email" className="InputDataInput"/>
+                    <input name="user_email" type="email" className="InputDataInput" required={true}/>
                 </div>
                </article>
                 <div className="Textarea">
                 <label>Message</label>
-                <textarea name="message"/>
+                <textarea name="message" required={true}/>
                 </div>
-                <button disabled={done} className={done? "buttonDisabled": ""}>Send Now</button>
+                <button type="submit" disabled={done} className={done? "buttonDisabled": ""}>Send Now</button>
             </form>
             <article className="GetInTouchLinks">
                 {/* <div className="GetInTouchLink"><Phone/> +2348186793482, +2348137253138</div> */}

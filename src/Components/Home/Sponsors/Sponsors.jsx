@@ -6,6 +6,8 @@ import Korapay from '../../Images/logo-kora.svg'
 import Fincra from '../../Images/fincra.png'
 import Some from "../../Images/picture 2.png"
 import Trust from "../../Images/Trusted by.png"
+import irukka from "../../../assets/irruka.jpg"
+import afiari from "../../../assets/afiari.png"
 
 
 function Sponsors() {
@@ -19,6 +21,8 @@ function Sponsors() {
               <img src={Fincra} alt='quidax' className='Logos'/>
                 {/* <img src={Quidax} alt='quidax' className='Logos'/> */}
                 <img src={Some} alt='quidax' className='Logos'/>
+                <img src={irukka} alt='quidax' className='Logos irukka'/>
+                <img src={afiari} alt='quidax' className='Logos'/>
         </div>
       </section>
     </section>

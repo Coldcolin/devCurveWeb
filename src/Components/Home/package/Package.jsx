@@ -50,7 +50,7 @@ const Package = () => {
                     bg='#fb8500'
                     title='Open Door to Opportunities'
                     bd='2px solid #fb8500'
-                    para='Open the Door to Opportunities: Secure a Paid Internship Placement Upon Successful Completion of Our Intensive Five-Month Training Program. Your Hard Work and Dedication Will Be Rewarded with a Valuable Real-World Experience and a Stepping Stone towards Your Future Success.'
+                    para='Open the Door to Opportunities: Secure a Paid Internship Placement Upon Successful Completion of Our Intensive Six-Month Training Program. Your Hard Work and Dedication Will Be Rewarded with a Valuable Real-World Experience and a Stepping Stone towards Your Future Success.'
                 />
             </SlideInWhenInViewRight>
             <SlideInWhenInViewRight>
