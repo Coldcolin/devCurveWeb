@@ -24,7 +24,7 @@ function Hero() {
     <>
         <section className='HeroContainer'>
             <div className='Hero1'>
-            <marquee>Registration for The Curve Africa Academy cohort 5.0 is now open!</marquee>
+            <marquee>Registration for The Curve Africa Academy cohort 6.0 is now open!</marquee>
             </div>
             <div className='Bottom'>
                 <div className='BottomWrap'>
@@ -38,12 +38,12 @@ function Hero() {
                         Elevate Your Skills, Join The Curve Africa Academy for a Comprehensive Learning Experience, Hands-on Training, a Stellar Portfolio, and Potential Internship Opportunities – All at No Cost!
                         </p>
                         <div className="HeroButtonHolder">
-                        {/* <a href="https://forms.gle/xGiZeRqBum8CNZ267" target='blank' className="HeroTag">
-                        <button className='HeroBtn2'>Register For Free!</button>
-                        </a> */}
-                        <a href="https://forms.gle/inbwx6ji5TrdTeuf9" target='_blank' rel='noopener noreferrer' className="HeroTag">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScPwDUHgF0FtouxZur-Y5s0G-j6sYW7nHsMQThBf4rHgvZJUg/viewform?usp=sharing" target='blank' className="HeroTag">
                         <button className='HeroBtn2'>Register For Free!</button>
                         </a>
+                        {/* <a href="https://forms.gle/inbwx6ji5TrdTeuf9" target='_blank' rel='noopener noreferrer' className="HeroTag">
+                        <button className='HeroBtn2'>Register For Free!</button>
+                        </a> */}
                         <div className='HeroImg'>
                     <img src={Img3} alt='Avatar' />
                 </div>
