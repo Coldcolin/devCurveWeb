@@ -1,4 +1,4 @@
-import Sam from "../../assets/sam.svg"
+// import Sam from "../../assets/sam.svg"
 import Cynthia from "../../assets/Cynthia.svg"
 // import Ubani from "../../assets/Ubani.svg"
 import Colin from "../../assets/Me.png"
@@ -8,6 +8,8 @@ import Obinna from "../../assets/Obinna.png"
 import Franklin from "../../assets/Ellipse 22.svg"
 import Ahmed from "../../assets/Ahmed.jpg"
 import desola from "../../assets/modesola.jpg"
+import Sam from "../../assets/MrSamNew.jpg"
+
 // import samule
 
 const staff =[

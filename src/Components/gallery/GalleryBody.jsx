@@ -5,7 +5,7 @@ const GalleryBody = () => {
   return (
     <div className="GalleryBody">
         <div className='Hero1'>
-            <marquee>Registration for The Curve Africa Academy cohort 5.0 is now open!</marquee>
+            <marquee>Registration for The Curve Africa Academy cohort 7.0 is now open!</marquee>
         </div>
       <h1>Step into Our World</h1>
       <p>

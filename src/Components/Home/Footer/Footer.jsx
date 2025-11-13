@@ -59,7 +59,7 @@ function Footer() {
                     <Link to="/gallery">Gallery</Link>
                 </div>
                 <div className='FooterBtnContain'>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScPwDUHgF0FtouxZur-Y5s0G-j6sYW7nHsMQThBf4rHgvZJUg/viewform?usp=sharing" target='_blank' rel='noopener noreferrer'><button className='FooterBtn'>Apply Now!</button></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyTyACRRNnTU3BxNS6jitKodWCPAJ38Lto7y0-Q9utCl9u-g/viewform?usp=send_form" target='_blank' rel='noopener noreferrer'><button className='FooterBtn'>Apply Now!</button></a>
                 </div>
             </div>
             <div className='FooterLine'></div>

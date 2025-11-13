@@ -60,7 +60,7 @@ function Header() {
                       <NavLink to="gallery" className={color ? 'HeaderNavItems HeaderNavsChange' : seeMobile? 'HeaderNavItems HeaderNavsChange': 'HeaderNavItems'}>Gallery</NavLink>
                     </div>
                     {/* <a href="https://forms.gle/xGiZeRqBum8CNZ267" target='blank' className="aTag"><button className='HeaderBtn2'>Register for Free!</button></a> */}
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScPwDUHgF0FtouxZur-Y5s0G-j6sYW7nHsMQThBf4rHgvZJUg/viewform?usp=sharing" target='_blank' rel='noopener noreferrer' className="aTag"><button className='HeaderBtn2'>Register for Free!</button></a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyTyACRRNnTU3BxNS6jitKodWCPAJ38Lto7y0-Q9utCl9u-g/viewform?usp=send_form" target='_blank' rel='noopener noreferrer' className="aTag"><button className='HeaderBtn2'>Register for Free!</button></a>
                 </div>
             </div>
             <div className={'HeaderBurger'}>

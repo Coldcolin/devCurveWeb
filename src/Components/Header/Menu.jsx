@@ -45,7 +45,7 @@ const Menu =({setSeeMobile, seeMobile})=>{
                 <NavLink to="about" className="mobileNavItems" onClick={()=> setSeeMobile(!seeMobile)}>About</NavLink>
                 <NavLink to="contact" className="mobileNavItems" onClick={()=> setSeeMobile(!seeMobile)}>Contact</NavLink>
                 <NavLink to="gallery" className="mobileNavItems" onClick={()=> setSeeMobile(!seeMobile)}>Gallery</NavLink>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScPwDUHgF0FtouxZur-Y5s0G-j6sYW7nHsMQThBf4rHgvZJUg/viewform?usp=sharing" target='blank'><button className='mobileButton' onClick={()=> setSeeMobile(!seeMobile)}>Register for Free!</button></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfyTyACRRNnTU3BxNS6jitKodWCPAJ38Lto7y0-Q9utCl9u-g/viewform?usp=send_form" target='blank'><button className='mobileButton' onClick={()=> setSeeMobile(!seeMobile)}>Register for Free!</button></a>
                 {/* <a onClick={showAlert}><button className='mobileButton' onClick={()=> setSeeMobile(!seeMobile)}>Register for Free!</button></a> */}
             </div>
         </animated.div>
